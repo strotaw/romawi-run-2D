@@ -754,6 +754,38 @@
         "name": "Group 23 (1).png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "calam.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "calam.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jalan sore (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jalan sore (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "jalan malam (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jalan malam (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Group 37 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Group 37 (1).png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -766,6 +798,21 @@
   "variables": [
     {
       "name": "JumpCount",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "RandCoin1",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "RandCoin2",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "point",
       "type": "number",
       "value": 0
     }
@@ -1012,7 +1059,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749989014,
+        "zoomFactor": 0.10416820751496662,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1149,8 +1196,8 @@
           "name": "big_snake",
           "persistentUuid": "a1983907-5cc9-4419-acaa-4ffb4dcd7a4f",
           "width": 1705,
-          "x": -1649,
-          "y": 260,
+          "x": -2240,
+          "y": 236,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -1216,102 +1263,6 @@
           "x": -2,
           "y": 669,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin",
-          "persistentUuid": "e951f50f-b49d-4fbb-9506-9e8c607a19e5",
-          "width": 0,
-          "x": 1042,
-          "y": 585,
-          "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin2",
-          "persistentUuid": "a0b47205-4d7f-46f4-a0ab-f79745923284",
-          "width": 0,
-          "x": 1152,
-          "y": 491,
-          "zOrder": 102,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin2",
-          "persistentUuid": "37666ee9-c82c-4476-94d2-d34dffa002c4",
-          "width": 0,
-          "x": 926,
-          "y": 488,
-          "zOrder": 102,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin2",
-          "persistentUuid": "2507cb87-c6e7-4163-8da9-a18424439ae8",
-          "width": 0,
-          "x": 1043,
-          "y": 487,
-          "zOrder": 102,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin",
-          "persistentUuid": "606a8b1b-f04e-4435-af81-442594dd1626",
-          "width": 0,
-          "x": 1153,
-          "y": 590,
-          "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin",
-          "persistentUuid": "e2d553b4-717e-4129-a0e4-91b770e82a80",
-          "width": 0,
-          "x": 928,
-          "y": 587,
-          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1532,11 +1483,11 @@
               "Flippable": "Flippable"
             },
             {
-              "canGoDownFromJumpthru": false,
-              "deceleration": 0,
               "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "canGoDownFromJumpthru": false,
+              "deceleration": 0,
               "acceleration": 1500,
               "canGrabPlatforms": true,
               "canGrabWithoutMoving": true,
@@ -2309,7 +2260,13 @@
           "name": "coin",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "VabCoin",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -3574,7 +3531,7 @@
                   "timeBetweenFrames": 0.17,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "rintangan api 1.png",
                       "points": [],
                       "originPoint": {
@@ -3588,7 +3545,22 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 129.5,
+                            "y": 384
+                          },
+                          {
+                            "x": 129.5,
+                            "y": 384
+                          },
+                          {
+                            "x": 129.5,
+                            "y": 384
+                          }
+                        ]
+                      ]
                     },
                     {
                       "hasCustomCollisionMask": true,
@@ -5029,10 +5001,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -5093,7 +5065,13 @@
           "name": "coin2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "VabCoin",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -6058,11 +6036,270 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "calam.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1293,
+                            "y": 0
+                          },
+                          {
+                            "x": 1293,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "road1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jalan sore (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6400,
+                            "y": 0
+                          },
+                          {
+                            "x": 6400,
+                            "y": 102
+                          },
+                          {
+                            "x": 0,
+                            "y": 102
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "road2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "jalan malam (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 6400,
+                            "y": 0
+                          },
+                          {
+                            "x": 6400,
+                            "y": 102
+                          },
+                          {
+                            "x": 0,
+                            "y": 102
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Group 37 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 996,
+                            "y": 0
+                          },
+                          {
+                            "x": 996,
+                            "y": 616
+                          },
+                          {
+                            "x": 2,
+                            "y": 616
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "objectName": "marcus"
+          },
           {
             "objectName": "background"
           },
@@ -6073,10 +6310,19 @@
             "objectName": "background2"
           },
           {
-            "objectName": "marcus"
+            "objectName": "background3"
+          },
+          {
+            "objectName": "background4"
           },
           {
             "objectName": "road"
+          },
+          {
+            "objectName": "road1"
+          },
+          {
+            "objectName": "road2"
           },
           {
             "objectName": "road_cave"
@@ -6244,7 +6490,7 @@
               },
               "parameters": [
                 "Marcus_box",
-                "marcus.X()-100",
+                "marcus.X()-500",
                 "650",
                 "250",
                 ""
@@ -6428,7 +6674,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Spawn"
+          "comment": "Coin"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -6466,106 +6712,201 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "coin"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "RandCoin",
-                    "=",
-                    "RandomInRange(1,20)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "coin",
-                    "Animation",
-                    "=",
-                    "RandCoin"
-                  ]
-                }
-              ],
-              "variables": [
-                {
-                  "name": "RandCoin",
-                  "type": "number",
-                  "value": 0
-                }
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RandCoin1",
+                "=",
+                "RandomInRange(1,20)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "coin"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "coin",
+                "Animation",
+                "=",
+                "RandCoin1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RandCoin2",
+                "=",
+                "RandomInRange(1,20)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "coin2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "coin2",
+                "Animation",
+                "=",
+                "RandCoin2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RandCoin1",
+                "=",
+                "RandCoin2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RandCoin1",
+                "=",
+                "RandomInRange(1,20)"
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "coin2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "RandCoin",
-                    "=",
-                    "RandomInRange(1,20)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "coin2",
-                    "Animation",
-                    "=",
-                    "RandCoin"
-                  ]
-                }
-              ],
-              "variables": [
-                {
-                  "name": "RandCoin",
-                  "type": "number",
-                  "value": 0
-                }
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RandCoin2",
+                "=",
+                "RandomInRange(1,20)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Coin",
+                "boundaries",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coin",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Coin",
+                "boundaries",
+                "boundaries.X()",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coin",
+                ""
               ]
             }
           ]
@@ -6580,75 +6921,45 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Score Coin"
+          "comment": "Score"
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "delete coin",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Coin",
-                    "boundaries",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "marcus",
-                    "Coin",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "marcus",
+                "Coin",
+                "",
+                "",
+                ""
               ]
             }
           ],
-          "parameters": []
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "point",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Coin",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -6663,6 +6974,7 @@
           "comment": "Damage Player\n"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6743,60 +7055,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "obstacle",
-                "boundaries",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "obstacle",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BoundingBoxLeft"
-              },
-              "parameters": [
-                "Coin",
-                "=",
-                "boundaries.X()"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Coin",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -6821,6 +7079,46 @@
                 "big_snake",
                 "Marcus_box",
                 "250",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Obstacle"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obstacle",
+                "boundaries",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "obstacle",
                 ""
               ]
             }
@@ -22269,7 +22567,59 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5963714163013206,
+        "zoomFactor": 0.32829312144162215,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "Transition",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 718,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background4",
+          "persistentUuid": "a273f63b-c867-4869-98fc-72e865c7096d",
+          "width": 1212,
+          "x": 36,
+          "y": 2,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RoadGen",
+          "persistentUuid": "c7fb2097-2d50-41b7-b34c-ed6a65cea5bb",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1.338969317284538,
         "windowMask": false
       }
     },
@@ -22336,25 +22686,8 @@
           "name": "fire",
           "persistentUuid": "0ea3417d-07d8-4d67-8ee3-7fd668ca0fef",
           "width": 139,
-          "x": 269,
-          "y": 285,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 153,
-          "keepRatio": true,
-          "layer": "",
-          "name": "fire",
-          "persistentUuid": "07abf0f7-40be-487e-aff5-fe86216982d2",
-          "width": 139,
-          "x": 409,
-          "y": 285,
+          "x": 251,
+          "y": 287,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -22413,15 +22746,33 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "b3bd3606-89e8-43e7-9a56-b0fda702d4a2",
+          "width": 75,
+          "x": 120,
+          "y": 585,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
           "keepRatio": true,
           "layer": "",
           "name": "coin",
-          "persistentUuid": "8c23c24c-da9b-47ea-9237-9c10a021d4ab",
-          "width": 0,
-          "x": 829,
-          "y": 337,
+          "persistentUuid": "db1ed5ad-4940-4548-a149-060d4475a72b",
+          "width": 75,
+          "x": 1070,
+          "y": 340,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -22429,16 +22780,187 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "faf5e4f6-1678-46d0-96af-ad480678ca5d",
+          "width": 75,
+          "x": 440,
+          "y": 340,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "de56c427-6616-47a9-9d97-81347998bbe8",
+          "width": 75,
+          "x": 560,
+          "y": 215,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "b28d3a2e-6dec-4064-8bc0-ddf67a328786",
+          "width": 75,
+          "x": 680,
+          "y": 215,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "be87d944-1213-4da8-bb8f-8e6e0dcaf894",
+          "width": 75,
+          "x": 830,
+          "y": 340,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "4987da1e-46d0-4650-8405-b91a9bbc055f",
+          "width": 75,
+          "x": 950,
+          "y": 340,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
           "keepRatio": true,
           "layer": "",
           "name": "coin2",
-          "persistentUuid": "b3bd3606-89e8-43e7-9a56-b0fda702d4a2",
-          "width": 0,
-          "x": 824,
-          "y": 582,
+          "persistentUuid": "c433b30d-6cde-4bc8-9267-919d666c9246",
+          "width": 75,
+          "x": 240,
+          "y": 585,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "6d97f54d-7f01-46f1-bd42-d3f36c512bc8",
+          "width": 75,
+          "x": 360,
+          "y": 585,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "77379327-0227-4c70-9c00-337d3c17bade",
+          "width": 75,
+          "x": 1060,
+          "y": 585,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "c1c1e8e4-72be-42b3-b121-e39f7f2aa7e6",
+          "width": 75,
+          "x": 820,
+          "y": 585,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "381de67a-e767-4930-80ac-8ffb088754a1",
+          "width": 75,
+          "x": 940,
+          "y": 585,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "a3dfede2-dfb1-4c3c-95d8-a18e5498a0f3",
+          "width": 75,
+          "x": 160,
+          "y": 340,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22454,7 +22976,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488232,
+        "zoomFactor": 0.5468750000000014,
         "windowMask": false
       }
     },
@@ -22589,8 +23111,8 @@
           "name": "coin",
           "persistentUuid": "2e50e145-db1a-4b90-a7c9-eb5d00ac5b15",
           "width": 0,
-          "x": 434,
-          "y": 339,
+          "x": 1116,
+          "y": 572,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -22605,9 +23127,201 @@
           "name": "coin2",
           "persistentUuid": "47953a24-efa9-4927-bf8b-24294157d192",
           "width": 0,
-          "x": 1025,
-          "y": 574,
+          "x": 1131,
+          "y": 273,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "8bdabe10-9433-41ac-9820-b876576a3764",
+          "width": 0,
+          "x": 160,
+          "y": 340,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "216d6247-d673-465a-b83f-2e1afce5cc49",
+          "width": 0,
+          "x": 274,
+          "y": 340,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "3a388ac9-f912-43c3-af04-a0f8f07b3ea2",
+          "width": 0,
+          "x": 571,
+          "y": 209,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "d5012143-5165-4d4c-9969-2b11591c3324",
+          "width": 0,
+          "x": 829,
+          "y": 345,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "a0398dbb-844f-4124-b2cd-59d946904636",
+          "width": 0,
+          "x": 667,
+          "y": 206,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "a56b87fb-8ad6-4246-b234-7746b77bf5b5",
+          "width": 0,
+          "x": 406,
+          "y": 348,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "521069d0-953a-4193-8d36-a3e9e2a4e9d7",
+          "width": 0,
+          "x": 290,
+          "y": 585,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "4ecd0d5b-5f26-4314-805f-212de2231b2a",
+          "width": 0,
+          "x": 416,
+          "y": 593,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "23005ee6-805d-4a22-bc09-8e719ff146d0",
+          "width": 0,
+          "x": 535,
+          "y": 567,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "cb38e7e7-038a-4b98-ad33-077a6d7a24f1",
+          "width": 0,
+          "x": 646,
+          "y": 466,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "06a38ad0-4ad0-4058-8a39-f6bd450f8eee",
+          "width": 0,
+          "x": 829,
+          "y": 567,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "bca5c06b-cfc1-4c2e-83f4-7858f89e5b7a",
+          "width": 0,
+          "x": 943,
+          "y": 575,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22757,8 +23471,8 @@
           "name": "coin",
           "persistentUuid": "fbd838b1-4b81-48f2-ac52-55789c36e54d",
           "width": 0,
-          "x": 717,
-          "y": 349,
+          "x": 177,
+          "y": 347,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -22773,8 +23487,200 @@
           "name": "coin2",
           "persistentUuid": "8f03c3b9-f1d6-482d-bfe4-809787a0a0b0",
           "width": 0,
-          "x": 1009,
-          "y": 584,
+          "x": 839,
+          "y": 566,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "51a541aa-fa09-4c89-85fc-f2ad5fe36347",
+          "width": 0,
+          "x": 321,
+          "y": 347,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "ff0bd9e2-a0c6-4e0c-ba3e-d373b5b1deb8",
+          "width": 0,
+          "x": 493,
+          "y": 347,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "6bbb3136-6750-4db7-bb0a-aae041f7dec9",
+          "width": 0,
+          "x": 624,
+          "y": 338,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "04904049-fd6d-4823-b011-a5e8ce1d6529",
+          "width": 0,
+          "x": 844,
+          "y": 333,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "63b44848-99f4-4598-a660-770a8b88d687",
+          "width": 0,
+          "x": 993,
+          "y": 326,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin",
+          "persistentUuid": "951569a4-5578-4a30-82d6-0e84a7af3216",
+          "width": 0,
+          "x": 717,
+          "y": 349,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "52a5d6c3-7343-4b2a-b239-5ddf1cdbaf90",
+          "width": 0,
+          "x": 161,
+          "y": 598,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "fdf35a09-51ef-415c-b24a-de21eb88b962",
+          "width": 0,
+          "x": 317,
+          "y": 580,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "8b34ffbf-c83c-44f3-8db1-e65dff8bcf5d",
+          "width": 0,
+          "x": 1117,
+          "y": 573,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "5f792e16-36ad-427d-a12f-5246eef269fe",
+          "width": 0,
+          "x": 676,
+          "y": 525,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "07fffd84-2920-4519-882b-164d549c04c0",
+          "width": 0,
+          "x": 545,
+          "y": 523,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin2",
+          "persistentUuid": "bf0b085c-fc18-43df-9dcc-5ba23e115022",
+          "width": 0,
+          "x": 997,
+          "y": 550,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -22891,7 +23797,7 @@
           "name": "fire",
           "persistentUuid": "f0197638-db36-4bfb-9a18-0c7429cb1eff",
           "width": 139,
-          "x": 1065,
+          "x": 1023,
           "y": 525,
           "zOrder": 4,
           "numberProperties": [],
@@ -23041,7 +23947,7 @@
           "name": "fire",
           "persistentUuid": "8ecf40dc-2a13-4657-bd8b-c4263cfc8cdf",
           "width": 139,
-          "x": 744,
+          "x": 703,
           "y": 522,
           "zOrder": 4,
           "numberProperties": [],
@@ -23141,7 +24047,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2875077480091727,
+        "zoomFactor": 0.8878784411087614,
         "windowMask": false
       }
     },
@@ -23410,7 +24316,7 @@
           "name": "fire",
           "persistentUuid": "3cebf6d1-b6cf-42f9-af03-e9009a6ba545",
           "width": 139,
-          "x": 1140,
+          "x": 1097,
           "y": 283,
           "zOrder": 4,
           "numberProperties": [],
@@ -23477,7 +24383,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28750774800917367,
+        "zoomFactor": 0.4728195406369306,
         "windowMask": false
       }
     },
@@ -23878,8 +24784,8 @@
           "name": "fire",
           "persistentUuid": "8ecf40dc-2a13-4657-bd8b-c4263cfc8cdf",
           "width": 139,
-          "x": 744,
-          "y": 522,
+          "x": 702,
+          "y": 521,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -23946,7 +24852,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3508067154713625,
+        "zoomFactor": 0.8308973917465078,
         "windowMask": false
       }
     },
@@ -23954,22 +24860,6 @@
       "associatedLayout": "Game Scene",
       "name": "11",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -24070,6 +24960,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "a067c2eb-3744-4a97-9989-b0abd5e0104a",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -24082,7 +24988,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2875077480091727,
+        "zoomFactor": 0.30722437408607717,
         "windowMask": false
       }
     },
@@ -24090,22 +24996,6 @@
       "associatedLayout": "Game Scene",
       "name": "12",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -24206,6 +25096,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "ef370d89-5a68-4376-b1f5-0d1d6da1f0e4",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -24218,7 +25124,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33936327385970283,
+        "zoomFactor": 0.4280418613827379,
         "windowMask": false
       }
     },
@@ -24226,22 +25132,6 @@
       "associatedLayout": "Game Scene",
       "name": "13",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -24359,6 +25249,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "c3758699-ca41-4d0f-b706-31d882d455f0",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -24379,22 +25285,6 @@
       "associatedLayout": "Game Scene",
       "name": "14",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -24510,6 +25400,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "49d5bda4-9a61-49bf-9660-54b154583828",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -24530,22 +25436,6 @@
       "associatedLayout": "Game Scene",
       "name": "15",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -24623,7 +25513,7 @@
           "name": "fire",
           "persistentUuid": "e0815eeb-00e2-42b3-a285-b996b2a1ff3d",
           "width": 139,
-          "x": 1055,
+          "x": 1012,
           "y": 522,
           "zOrder": 4,
           "numberProperties": [],
@@ -24661,6 +25551,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "8324231a-e9d7-478a-b423-74e6eeefc08b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -24673,7 +25579,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37486424046716027,
+        "zoomFactor": 0.36263603371142245,
         "windowMask": false
       }
     },
@@ -24681,22 +25587,6 @@
       "associatedLayout": "Game Scene",
       "name": "16",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -24865,6 +25755,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "97c17978-7685-4b41-a2b3-60f1f6651330",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -24885,22 +25791,6 @@
       "associatedLayout": "Game Scene",
       "name": "17",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -25015,6 +25905,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "d61392b8-b92c-495e-8601-72a19cd6ffd3",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -25027,7 +25933,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2517893302251415,
+        "zoomFactor": 0.28750774800917417,
         "windowMask": false
       }
     },
@@ -25035,22 +25941,6 @@
       "associatedLayout": "Game Scene",
       "name": "18",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -25128,7 +26018,7 @@
           "name": "fire",
           "persistentUuid": "c6298c6e-c214-47e7-9d91-045cad2caf02",
           "width": 139,
-          "x": 501,
+          "x": 460,
           "y": 522,
           "zOrder": 4,
           "numberProperties": [],
@@ -25168,6 +26058,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "719e5955-cad8-4b94-955b-e6c8494363c9",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -25180,7 +26086,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6809716786828061,
+        "zoomFactor": 0.5398929383612253,
         "windowMask": false
       }
     },
@@ -25188,22 +26094,6 @@
       "associatedLayout": "Game Scene",
       "name": "19",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -25248,7 +26138,7 @@
           "persistentUuid": "4843aa03-9a10-4e01-a96a-1a980fae5eac",
           "width": 579,
           "x": 706,
-          "y": 399,
+          "y": 400,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -25321,6 +26211,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "9ac9502c-6558-40a5-a259-c8ba43c28261",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -25341,22 +26247,6 @@
       "associatedLayout": "Game Scene",
       "name": "20",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "ff010f7d-41b3-40d9-8768-66343d2022f7",
-          "width": 1282,
-          "x": 0,
-          "y": 674,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -25401,7 +26291,7 @@
           "persistentUuid": "21263e02-7420-44a2-9976-ac5384d0be11",
           "width": 1298,
           "x": -8,
-          "y": 389,
+          "y": 400,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -25468,7 +26358,7 @@
           "persistentUuid": "95f2e089-f193-49f8-94ed-147d08571f4c",
           "width": 0,
           "x": 214,
-          "y": 288,
+          "y": 293,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25484,7 +26374,23 @@
           "persistentUuid": "32654181-905e-4890-bc34-377440602c16",
           "width": 0,
           "x": 1054,
-          "y": 285,
+          "y": 294,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road1",
+          "persistentUuid": "52f3f45a-0708-41fb-b145-83e12701cfd4",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25501,7 +26407,1442 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.251789330225142,
+        "zoomFactor": 0.4728195406369329,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "21",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "060f3b56-5ac2-4b32-958d-145872f62f59",
+          "width": 697,
+          "x": 319,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 191,
+          "layer": "",
+          "name": "gear",
+          "persistentUuid": "04eb6cfc-1225-40f2-b651-8d66a594bbc0",
+          "width": 111,
+          "x": 609,
+          "y": 252,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bush",
+          "persistentUuid": "985f9d33-277d-4506-9b40-e7e0a46fe2c3",
+          "width": 136,
+          "x": 859,
+          "y": 605,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.2690564686190791,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "22",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "060f3b56-5ac2-4b32-958d-145872f62f59",
+          "width": 491,
+          "x": -4,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "aa0dedee-dc90-43f1-ae53-f39404ce4cee",
+          "width": 425,
+          "x": 856,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 153,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "37b9bdc6-f6be-4ebd-ba15-e1821116af26",
+          "width": 139,
+          "x": 277,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedY": true,
+          "height": 154,
+          "keepRatio": true,
+          "layer": "",
+          "name": "gear",
+          "persistentUuid": "16b8fa7c-e748-4c6d-9c24-38ab0f7ea7ce",
+          "width": 111,
+          "x": 865,
+          "y": 437,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3748642404671628,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "23",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "060f3b56-5ac2-4b32-958d-145872f62f59",
+          "width": 612,
+          "x": 669,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "f1733d14-d595-4129-a6da-4cdb655ddf1f",
+          "width": 131,
+          "x": 373,
+          "y": 670,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "8a12f68f-b613-4101-9df5-fcffb5673ae3",
+          "width": 131,
+          "x": 242,
+          "y": 670,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "small_wood",
+          "persistentUuid": "5d047272-1278-4f5b-8332-38f7c68ed724",
+          "width": 0,
+          "x": 878,
+          "y": 294,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.30722437408608033,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "24",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "060f3b56-5ac2-4b32-958d-145872f62f59",
+          "width": 914,
+          "x": 167,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 153,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "648d7085-5b14-49f6-8db2-f5f6b83b1e04",
+          "width": 139,
+          "x": 58,
+          "y": 525,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bush",
+          "persistentUuid": "a68c0675-797f-4abb-b420-c569698b13dc",
+          "width": 136,
+          "x": 592,
+          "y": 365,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 153,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "25100800-8a58-4f81-be73-61e00cc091b8",
+          "width": 139,
+          "x": 1069,
+          "y": 522,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.29720260417267125,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "25",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform1",
+          "persistentUuid": "78a1d713-fbd2-49d5-923c-6c527c68c5c1",
+          "width": 1310,
+          "x": -21,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "log",
+          "persistentUuid": "f5a6e870-bd8f-4702-93d6-37bad299be67",
+          "width": 100,
+          "x": 1188,
+          "y": -2,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "small_wood",
+          "persistentUuid": "0bd77b39-1cd9-48b0-be5a-4925930d2e98",
+          "width": 0,
+          "x": 605,
+          "y": 535,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "small_wood",
+          "persistentUuid": "cb75f339-aa60-42cc-80f4-b5edfbb3a110",
+          "width": 0,
+          "x": 205,
+          "y": 535,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "small_wood",
+          "persistentUuid": "b06158b9-ca61-4d63-a87b-7b24852776e3",
+          "width": 0,
+          "x": 1000,
+          "y": 535,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5963714163013222,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "26",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "bc025403-a03b-46f6-b805-ff836ed16eab",
+          "width": 334,
+          "x": 750,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "9be2860b-6eb5-46e8-b3d8-9b10d7d15d7d",
+          "width": 334,
+          "x": 123,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bush",
+          "persistentUuid": "385b7267-67d3-4263-b8e9-cca729f46311",
+          "width": 136,
+          "x": 850,
+          "y": 376,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "small_wood",
+          "persistentUuid": "0df41472-2aca-4f56-87df-c7b2b8696614",
+          "width": 0,
+          "x": 1126,
+          "y": 533,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bush",
+          "persistentUuid": "4a2c9e63-b356-4407-8c95-6d7674a59c1d",
+          "width": 136,
+          "x": 530,
+          "y": 610,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "small_wood",
+          "persistentUuid": "5fe6ea3f-d456-4d8e-be54-31a215a685e0",
+          "width": 0,
+          "x": 224,
+          "y": 292,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.2435758714405846,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "27",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "a1e7365e-7022-4882-8a0f-e2dcfce2bbee",
+          "width": 680,
+          "x": 417,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "cde5f1fd-f926-40e0-a659-409aa1663ecc",
+          "width": 131,
+          "x": 171,
+          "y": 667,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "cf7fb0f8-64fc-4ab8-b314-248afc28760b",
+          "width": 131,
+          "x": 1102,
+          "y": 668,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 153,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "c29baf16-0318-409f-8d01-cc300bab5b93",
+          "width": 139,
+          "x": 687,
+          "y": 289,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.2875077480091758,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "28",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "3fbcacae-87ae-4a4e-bf1a-d81274e21095",
+          "width": 223,
+          "x": 905,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "0f735146-b67b-46a1-a016-ae96e3859c3b",
+          "width": 223,
+          "x": 78,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "dbc74488-3057-4399-9a81-5dc20fae90ec",
+          "width": 223,
+          "x": 520,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "log",
+          "persistentUuid": "23128143-c178-4f9d-81eb-32fece78ca2e",
+          "width": 100,
+          "x": 1187,
+          "y": 581,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 153,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "ebd62461-0bd1-4103-ae75-bff401986c96",
+          "width": 139,
+          "x": 952,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 153,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fire",
+          "persistentUuid": "b4acc67c-895c-430b-bb17-142bfc7d3471",
+          "width": 139,
+          "x": 118,
+          "y": 288,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3748642404671628,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "29",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "3975f2eb-160c-47ec-9e0f-948d9764a88e",
+          "width": 0,
+          "x": 178,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "small_wood",
+          "persistentUuid": "24153314-0753-4399-8352-39437fdab081",
+          "width": 0,
+          "x": 513,
+          "y": 293,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "29080a86-1ccf-4236-a710-ee3127a3d069",
+          "width": 131,
+          "x": 963,
+          "y": 665,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water",
+          "persistentUuid": "aea7632d-3394-4be5-a424-3dc80b7b6e3e",
+          "width": 131,
+          "x": 1094,
+          "y": 665,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.36263603371142494,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "Game Scene",
+      "name": "30",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Background",
+          "name": "RoadGen",
+          "persistentUuid": "3db39798-0a68-437e-86bf-8459c5387146",
+          "width": 0,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background3",
+          "persistentUuid": "2e36eb29-fc2a-4ba1-9773-05eb7e59cf28",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "layer": "",
+          "name": "road2",
+          "persistentUuid": "0abe1277-82b4-47aa-b00b-6f4c8613290b",
+          "width": 1282,
+          "x": 0,
+          "y": 674,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "b1f8923c-11a0-4922-91d7-bbbda0908360",
+          "width": 317,
+          "x": 809,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform",
+          "persistentUuid": "8ae0957f-0ac7-482a-92b8-f91833c30a91",
+          "width": 273,
+          "x": 114,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bush",
+          "persistentUuid": "dc39495d-1283-488a-8b0f-4a4a624da44b",
+          "width": 136,
+          "x": 901,
+          "y": 368,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 191,
+          "layer": "",
+          "name": "gear",
+          "persistentUuid": "9fc2be28-f42c-4a8f-97c6-17c836cd96e4",
+          "width": 111,
+          "x": 423,
+          "y": 492,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 191,
+          "layer": "",
+          "name": "gear",
+          "persistentUuid": "a516ae4c-7b20-4fa9-bfe5-22c0fba20e91",
+          "width": 111,
+          "x": 1146,
+          "y": 492,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.29720260417267125,
         "windowMask": false
       }
     }
