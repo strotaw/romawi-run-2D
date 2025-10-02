@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Game Scene",
   "gdVersion": {
     "build": 242,
     "major": 5,
@@ -1397,82 +1397,12 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "JumpCount",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "RandCoin1",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "RandCoin2",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "point",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "Random_Quest",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "transisi",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "transisi_Start",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "start",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "end",
-      "type": "number",
-      "value": 0
-    },
-    {
       "name": "clicked",
       "type": "number",
       "value": 0
     },
     {
-      "name": "map",
-      "type": "number",
-      "value": 1
-    },
-    {
-      "name": "missed",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "rand",
-      "type": "array",
-      "children": []
-    },
-    {
-      "name": "result_transition",
-      "type": "number",
-      "value": 0
-    },
-    {
       "name": "highscore",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "timer",
       "type": "number",
       "value": 0
     }
@@ -1498,7 +1428,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26364576737709294,
+        "zoomFactor": 0.301046119718261,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1586,6 +1516,81 @@
           "name": "shuffle",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "JumpCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "randomLayout",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RandCoin1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RandCoin2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "point",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Random_Quest",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "transisi",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "transisi_Start",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "start",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "end",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "map",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "missed",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "rand",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "result_transition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "timer",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -1616,7 +1621,7 @@
           "width": 0,
           "x": 1,
           "y": 541,
-          "zOrder": 4,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1922,8 +1927,8 @@
           "layer": "Score",
           "name": "Marcus_dead",
           "persistentUuid": "e797f197-a8a2-4400-b8e8-7a684c535688",
-          "width": 4264,
-          "x": -1466,
+          "width": 1358,
+          "x": -2,
           "y": 723,
           "zOrder": 113,
           "numberProperties": [],
@@ -4480,11 +4485,11 @@
                           },
                           {
                             "x": 257,
-                            "y": 247
+                            "y": 198
                           },
                           {
-                            "x": 2,
-                            "y": 247
+                            "x": 0,
+                            "y": 199
                           }
                         ]
                       ]
@@ -4516,11 +4521,11 @@
                           },
                           {
                             "x": 257,
-                            "y": 247
+                            "y": 198
                           },
                           {
-                            "x": 2,
-                            "y": 247
+                            "x": 0,
+                            "y": 199
                           }
                         ]
                       ]
@@ -4552,11 +4557,11 @@
                           },
                           {
                             "x": 257,
-                            "y": 247
+                            "y": 198
                           },
                           {
-                            "x": 2,
-                            "y": 247
+                            "x": 0,
+                            "y": 199
                           }
                         ]
                       ]
@@ -4588,11 +4593,11 @@
                           },
                           {
                             "x": 257,
-                            "y": 247
+                            "y": 198
                           },
                           {
-                            "x": 2,
-                            "y": 247
+                            "x": 0,
+                            "y": 199
                           }
                         ]
                       ]
@@ -5724,7 +5729,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "water",
           "type": "Sprite",
@@ -5760,11 +5765,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 93
+                          },
+                          {
+                            "x": 61.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 394.5,
+                            "y": 19
                           },
                           {
                             "x": 432,
-                            "y": 0
+                            "y": 101
                           },
                           {
                             "x": 432,
@@ -5796,11 +5809,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 0
+                            "y": 93
+                          },
+                          {
+                            "x": 61.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 394.5,
+                            "y": 19
                           },
                           {
                             "x": 432,
-                            "y": 0
+                            "y": 101
                           },
                           {
                             "x": 432,
@@ -10980,6 +11001,7 @@
           "colorG": 87,
           "colorR": 139,
           "creationTime": 0,
+          "folded": true,
           "name": "Road",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11046,15 +11068,6 @@
                     "",
                     "\"run\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "PauseTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"map\""
-                  ]
                 }
               ]
             },
@@ -11121,7 +11134,7 @@
                 },
                 {
                   "type": {
-                    "value": "UnPauseTimer"
+                    "value": "ResetTimer"
                   },
                   "parameters": [
                     "",
@@ -11188,174 +11201,6 @@
                     ""
                   ]
                 }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "result_transition",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "shuffle",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ShowLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"quest\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "10"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"quest\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "end",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "result_transition",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "result_transition",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ShowLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"result\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"result\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Score\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "point",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "missed",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "shuffle",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "result",
-                        "Animation",
-                        "=",
-                        "\"3\""
-                      ]
-                    }
-                  ]
-                }
               ]
             },
             {
@@ -11378,6 +11223,16 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
+                    "map",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
                     "transisi_Start",
                     "=",
                     "1"
@@ -11391,16 +11246,6 @@
                     "marcus",
                     ">",
                     "RoadGen.X()-1270"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "map",
-                    "=",
-                    "1"
                   ]
                 }
               ],
@@ -11438,9 +11283,10 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Generate Road Map Sore"
+              "comment": "Generate Road Map"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11462,58 +11308,136 @@
                     ">",
                     "RoadGen.X()-1270"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "map",
-                    "=",
-                    "2"
-                  ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "ToString(RandomInRange(11,20))",
-                    "RoadGen.X()",
-                    "RoadGen.Y()",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "map",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "randomLayout",
+                        "=",
+                        "RandomInRange(1,10)"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "RoadGen",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "map",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "randomLayout",
+                        "=",
+                        "RandomInRange(11,20)"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "transisi_Start",
-                    "=",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "map",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "randomLayout",
+                        "=",
+                        "RandomInRange(21,30)"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "end",
-                    "=",
-                    "0"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                      },
+                      "parameters": [
+                        "",
+                        "ToString(randomLayout)",
+                        "RoadGen.X()",
+                        "RoadGen.Y()",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "RoadGen",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "transisi_Start",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "end",
+                        "=",
+                        "0"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -11528,98 +11452,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Generate Road Map Malam"
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "transisi",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "marcus",
-                    ">",
-                    "RoadGen.X()-1270"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "map",
-                    "=",
-                    "3"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "ToString(RandomInRange(12,30))",
-                    "RoadGen.X()",
-                    "RoadGen.Y()",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "RoadGen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "transisi_Start",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "end",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Transisi Ke Map Sore"
+              "comment": "Transisi Ke Map"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -11630,7 +11463,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"run\"",
+                    "\"map\"",
                     ">=",
                     "20"
                   ]
@@ -11666,36 +11499,6 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "transisi",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "map",
-                    "=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "result_transition",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PauseTimer"
                   },
                   "parameters": [
@@ -11705,62 +11508,6 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"map\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Transisi Ke Map Malam"
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Transition1\"",
-                    "RoadGen.X()",
-                    "RoadGen.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "RoadGen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -11776,7 +11523,7 @@
                   "parameters": [
                     "map",
                     "=",
-                    "3"
+                    "RandomInRange(1,3)"
                   ]
                 },
                 {
@@ -11791,11 +11538,11 @@
                 },
                 {
                   "type": {
-                    "value": "UnPauseTimer"
+                    "value": "ResetTimer"
                   },
                   "parameters": [
                     "",
-                    "\"run\""
+                    "\"transition\""
                   ]
                 }
               ]
@@ -11815,6 +11562,17 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map\"",
+                    ">=",
+                    "40"
+                  ]
+                },
                 {
                   "type": {
                     "value": "NumberVariable"
@@ -11889,6 +11647,187 @@
                   "parameters": [
                     "",
                     "\"map\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Result"
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map\"",
+                    ">=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map\"",
+                    "<",
+                    "30"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Score\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"result\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"result\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "shuffle",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "end",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "result_transition",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "point",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "missed",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"map\"",
+                        ">=",
+                        "33"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"quest\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"quest\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -12438,60 +12377,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
-                  },
-                  "parameters": [
-                    "marcus.Y()",
-                    "=",
-                    "RoadGen.Y()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "marcus",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "marcus",
-                    "Marcus_dead",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "marcus",
-                    ""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -12501,41 +12386,11 @@
           "colorG": 117,
           "colorR": 65,
           "creationTime": 0,
+          "folded": true,
           "name": "Snake",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "damage",
-                    ">",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                  },
-                  "parameters": [
-                    "big_snake",
-                    "Tween",
-                    "\"\"",
-                    "marcus.X() + 30000",
-                    "\"linear\"",
-                    "1",
-                    ""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -12565,6 +12420,37 @@
                     "RoadGen.Y()",
                     "\"linear\"",
                     "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "damage",
+                    ">",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "big_snake",
+                    "Tween",
+                    "\"\"",
+                    "marcus.X() + 30000",
+                    "\"linear\"",
+                    "1",
                     ""
                   ]
                 }
@@ -12878,14 +12764,12 @@
                 },
                 {
                   "type": {
-                    "value": "DebuggerTools::EnableDebugDraw"
+                    "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "missed",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -13184,6 +13068,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "start",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
@@ -13197,16 +13091,6 @@
                   "parameters": [
                     "",
                     "\"quest\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "start",
-                    "=",
-                    "1"
                   ]
                 }
               ]
@@ -13791,6 +13675,7 @@
           "colorG": 233,
           "colorR": 184,
           "creationTime": 0,
+          "folded": true,
           "name": "Timer",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13819,29 +13704,11 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"map\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PauseTimer"
                   },
                   "parameters": [
                     "",
                     "\"run\" "
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PauseTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"map\" "
                   ]
                 }
               ]
@@ -13857,7 +13724,7 @@
                   "parameters": [
                     "timer",
                     "=",
-                    "TimerElapsedTime(\"run\")"
+                    "TimerElapsedTime(\"map\")"
                   ]
                 },
                 {
@@ -13869,6 +13736,80 @@
                     "Text",
                     "=",
                     "timer"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 2,
+          "colorG": 0,
+          "colorR": 114,
+          "creationTime": 0,
+          "name": "Lose",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "marcus.Y()",
+                    "=",
+                    "Marcus_dead.Y()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "marcus",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"KENA\"",
+                    "\"info\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "marcus.Y()",
+                    "=",
+                    "RoadGen.Y()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "marcus",
+                    ""
                   ]
                 }
               ]
@@ -14326,7 +14267,7 @@
           "isLocked": false,
           "name": "Loading Screen",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -50911,7 +50852,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 51,
+          "height": 52,
           "layer": "",
           "name": "road_cave",
           "persistentUuid": "f083a7ad-799c-470f-ad1d-9fa2d536f6ff",
@@ -50934,7 +50875,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.48876317161559785,
+        "zoomFactor": 0.98075986145455,
         "windowMask": false
       }
     },
@@ -50954,7 +50895,7 @@
           "width": 1466,
           "x": -1088,
           "y": -1,
-          "zOrder": 2,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -50988,23 +50929,7 @@
           "width": 1331,
           "x": 378,
           "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 46,
-          "layer": "",
-          "name": "road",
-          "persistentUuid": "27f5001d-0298-4616-948b-a81a369c58d4",
-          "width": 580,
-          "x": 377,
-          "y": 674,
-          "zOrder": 4,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -51017,8 +50942,8 @@
           "layer": "",
           "name": "road_cave",
           "persistentUuid": "567115be-dec8-4aee-b85e-ca7a8fc81663",
-          "width": 477,
-          "x": -97,
+          "width": 1012,
+          "x": -155,
           "y": 669,
           "zOrder": 5,
           "numberProperties": [],
@@ -51036,58 +50961,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.49508400737489794,
-        "windowMask": false
-      }
-    },
-    {
-      "associatedLayout": "Game Scene",
-      "name": "Transition2",
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "RoadGen",
-          "persistentUuid": "c7fb2097-2d50-41b7-b34c-ed6a65cea5bb",
-          "width": 0,
-          "x": 1280,
-          "y": 0,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "background2",
-          "persistentUuid": "5c75bcd1-e4d1-4531-bcfe-f0516d213383",
-          "width": 0,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "editionSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.33253870912507755,
+        "zoomFactor": 0.43357743047024555,
         "windowMask": false
       }
     },
@@ -51747,8 +51621,8 @@
           "name": "log",
           "persistentUuid": "b97afdd8-05e1-46a6-8c35-df698c593aeb",
           "width": 100,
-          "x": 1177,
-          "y": 1,
+          "x": 1088,
+          "y": 332,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -51968,7 +51842,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33936327385970283,
+        "zoomFactor": 0.7276711643506538,
         "windowMask": false
       }
     },
@@ -57079,7 +56953,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57315,7 +57189,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57587,7 +57461,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57807,7 +57681,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -58076,7 +57950,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -58362,7 +58236,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -58698,7 +58572,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -58929,7 +58803,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -59267,7 +59141,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -59487,7 +59361,7 @@
           "width": 1280,
           "x": 0,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
