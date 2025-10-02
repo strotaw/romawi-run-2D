@@ -1386,6 +1386,14 @@
         "name": "snake 1 1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1403,6 +1411,16 @@
     },
     {
       "name": "highscore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "isMuted",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "canSlide",
       "type": "number",
       "value": 0
     }
@@ -1428,7 +1446,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.301046119718261,
+        "zoomFactor": 0.56531580551266,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1591,6 +1609,11 @@
           "name": "timer",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Horse_pick",
+          "type": "number",
+          "value": 13
         }
       ],
       "instances": [
@@ -1621,7 +1644,7 @@
           "width": 0,
           "x": 1,
           "y": 541,
-          "zOrder": 26,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1832,7 +1855,7 @@
           "persistentUuid": "72382c7b-3f95-4b98-955a-62f8275d4d17",
           "width": 0,
           "x": 415,
-          "y": 549,
+          "y": 550,
           "zOrder": 107,
           "numberProperties": [],
           "stringProperties": [],
@@ -2127,6 +2150,22 @@
           "x": 463,
           "y": 409,
           "zOrder": 401,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "horse_item",
+          "persistentUuid": "272f9504-9df8-4473-8e5f-f33222877d83",
+          "width": 0,
+          "x": 986,
+          "y": 562,
+          "zOrder": 402,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10361,13 +10400,63 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Horse_Spawner",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10530,7 +10619,7 @@
             "objectName": "Timer"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "Horse_Spawner"
           }
         ]
       },
@@ -10540,14 +10629,24 @@
           "colorG": 0,
           "colorR": 0,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "power",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
@@ -10720,6 +10819,16 @@
                 },
                 {
                   "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "canSlide",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -10883,6 +10992,44 @@
                         "shuffle",
                         "=",
                         "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Horse_pick",
+                        "=",
+                        "RandomInRange(1,100)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "horse_item",
+                        "Horse_Spawner.X()",
+                        "Horse_Spawner.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Horse_Spawner",
+                        ""
                       ]
                     }
                   ]
@@ -12077,11 +12224,13 @@
           "colorG": 2,
           "colorR": 208,
           "creationTime": 0,
+          "folded": true,
           "name": "Damage",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12568,13 +12717,11 @@
           "colorG": 166,
           "colorR": 245,
           "creationTime": 0,
-          "folded": true,
           "name": "Horse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12591,6 +12738,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "canSlide",
+                    "=",
+                    "0"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Delete"
@@ -12613,6 +12770,16 @@
                 },
                 {
                   "type": {
+                    "value": "PlatformBehavior::IgnoreDefaultControls"
+                  },
+                  "parameters": [
+                    "marcus",
+                    "PlatformerObject",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -12625,7 +12792,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "1"
+                    "0.5"
                   ]
                 },
                 {
@@ -12639,22 +12806,40 @@
                 },
                 {
                   "type": {
-                    "value": "PlatformBehavior::IgnoreDefaultControls"
-                  },
-                  "parameters": [
-                    "marcus",
-                    "PlatformerObject",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
                     "power",
                     "=",
                     "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "=",
+                    "road_group.Y()-114"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "Animation",
+                    "=",
+                    "Random_Quest"
                   ]
                 }
               ]
@@ -12667,7 +12852,6 @@
           "colorG": 90,
           "colorR": 85,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12770,6 +12954,14 @@
                     "missed",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Horse_Spawner"
                   ]
                 }
               ]
@@ -13029,6 +13221,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "canSlide",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -13103,7 +13305,6 @@
           "colorG": 227,
           "colorR": 80,
           "creationTime": 0,
-          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13253,6 +13454,16 @@
                     "=",
                     "\"nyala\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isMuted",
+                    "=",
+                    "0"
+                  ]
                 }
               ]
             },
@@ -13279,6 +13490,16 @@
                     "Animation",
                     "=",
                     "\"mati\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "isMuted",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -13405,7 +13626,6 @@
           "colorG": 255,
           "colorR": 0,
           "creationTime": 0,
-          "folded": true,
           "name": "Collection",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13486,7 +13706,6 @@
           "colorG": 74,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13675,7 +13894,6 @@
           "colorG": 233,
           "colorR": 184,
           "creationTime": 0,
-          "folded": true,
           "name": "Timer",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13896,7 +14114,7 @@
           "isLocked": false,
           "name": "Score",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -51253,6 +51471,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Horse_Spawner",
+          "persistentUuid": "4e430b98-efb4-489a-b13b-2438f1a5b604",
+          "width": 0,
+          "x": 307,
+          "y": 556,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -51265,7 +51499,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126322,
+        "zoomFactor": 0.4481978045410365,
         "windowMask": false
       }
     },
@@ -51830,6 +52064,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Horse_Spawner",
+          "persistentUuid": "4698c8d3-e506-4b39-b789-d959c236f2cb",
+          "width": 0,
+          "x": 1150,
+          "y": 543,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -51842,7 +52092,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7276711643506538,
+        "zoomFactor": 0.472819540636929,
         "windowMask": false
       }
     },
@@ -52418,6 +52668,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Horse_Spawner",
+          "persistentUuid": "fa5d7fc6-2508-4f0b-9232-0818ffdf2dc3",
+          "width": 0,
+          "x": 1108,
+          "y": 555,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -52430,7 +52696,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6164812573094155,
+        "zoomFactor": 0.4424755742367237,
         "windowMask": false
       }
     },
@@ -52942,6 +53208,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Horse_Spawner",
+          "persistentUuid": "c652ea3a-f9fb-405b-a75d-57ec97ecaf03",
+          "width": 0,
+          "x": 683,
+          "y": 555,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -53421,40 +53703,6 @@
           "height": 75,
           "keepRatio": true,
           "layer": "",
-          "name": "coin2",
-          "persistentUuid": "ae07d566-bc35-42ee-8543-315a42291860",
-          "width": 75,
-          "x": 745,
-          "y": 550,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin1",
-          "persistentUuid": "4b783b69-53ee-49b2-bea6-8f763de702d2",
-          "width": 75,
-          "x": 200,
-          "y": 310,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "keepRatio": true,
-          "layer": "",
           "name": "coin1",
           "persistentUuid": "cf0873e6-9614-4425-8fca-acf3c37c759a",
           "width": 75,
@@ -53566,6 +53814,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Horse_Spawner",
+          "persistentUuid": "6d1b86a7-b8fe-4b2a-9d5b-bef526e9271d",
+          "width": 0,
+          "x": 745,
+          "y": 550,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -53578,7 +53842,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5398929383612221,
+        "zoomFactor": 1.0833576549500876,
         "windowMask": false
       }
     },
