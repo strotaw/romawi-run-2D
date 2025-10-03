@@ -1394,6 +1394,14 @@
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1423,6 +1431,96 @@
       "name": "canSlide",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "coin_collection",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layouts": [
@@ -1446,7 +1544,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.56531580551266,
+        "zoomFactor": 0.36732575450590127,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2386,13 +2484,13 @@
               "Flippable": "Flippable"
             },
             {
-              "isFolded": true,
+              "acceleration": 1499,
+              "maxSpeed": 25000,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "canGrabPlatforms": false,
               "canGoDownFromJumpthru": false,
               "deceleration": 0,
-              "acceleration": 1500,
               "canGrabWithoutMoving": true,
               "gravity": 1000,
               "ignoreDefaultControls": false,
@@ -2400,7 +2498,6 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
@@ -10629,6 +10726,7 @@
           "colorG": 0,
           "colorR": 0,
           "creationTime": 0,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10881,6 +10979,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11047,6 +11146,16 @@
                     "",
                     "coin1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "power",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -11084,6 +11193,16 @@
                   "parameters": [
                     "",
                     "coin2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "power",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -11148,7 +11267,6 @@
           "colorG": 87,
           "colorR": 139,
           "creationTime": 0,
-          "folded": true,
           "name": "Road",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11811,7 +11929,6 @@
               "comment": "Result"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -11832,7 +11949,7 @@
                   "parameters": [
                     "",
                     "\"map\"",
-                    "<",
+                    "<=",
                     "30"
                   ]
                 }
@@ -11931,50 +12048,48 @@
                     "0"
                   ]
                 }
-              ],
-              "events": [
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"map\"",
-                        ">=",
-                        "33"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ShowLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"quest\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "7"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"quest\""
-                      ]
-                    }
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map\"",
+                    ">=",
+                    "35"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"quest\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"quest\""
                   ]
                 }
               ]
@@ -11993,42 +12108,33 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "CollisionNP"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "marcus",
-                        "coin1",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "marcus",
-                        "coin2",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "marcus",
+                    "Coin",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "coin_collection[Coin.VabCoin]",
+                    "+",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Delete"
@@ -12092,6 +12198,16 @@
                         "+",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "DebuggerTools::ConsoleLog"
+                      },
+                      "parameters": [
+                        "Coin.VabCoin",
+                        "\"info\"",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -12143,6 +12259,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12151,7 +12268,7 @@
                   },
                   "parameters": [
                     "point",
-                    ">",
+                    "!=",
                     "0"
                   ]
                 }
@@ -12438,45 +12555,6 @@
               ]
             },
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "marcus",
-                    "obstacle",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "power",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "obstacle",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -12661,18 +12739,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "result_transition",
-                    "!=",
-                    "1"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -12717,6 +12784,7 @@
           "colorG": 166,
           "colorR": 245,
           "creationTime": 0,
+          "folded": true,
           "name": "Horse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12821,12 +12889,31 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PosY"
                   },
                   "parameters": [
                     "Coin",
+                    ">=",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "power",
                     "=",
-                    "road_group.Y()-114"
+                    "1"
                   ]
                 }
               ],
@@ -12841,6 +12928,99 @@
                     "=",
                     "Random_Quest"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "VabCoin",
+                    "=",
+                    "Random_Quest"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "<",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "power",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Coin"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "marcus",
+                    "obstacle",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "power",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "obstacle",
+                    ""
+                  ]
                 }
               ]
             }
@@ -12852,6 +13032,7 @@
           "colorG": 90,
           "colorR": 85,
           "creationTime": 0,
+          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12955,7 +13136,13 @@
                     "=",
                     "0"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
                 {
                   "type": {
                     "value": "Cache"
@@ -13305,6 +13492,7 @@
           "colorG": 227,
           "colorR": 80,
           "creationTime": 0,
+          "folded": true,
           "name": "Camera",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13427,6 +13615,24 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"run\""
+                  ]
                 }
               ]
             },
@@ -13545,7 +13751,7 @@
                   "parameters": [
                     "coin_mastery",
                     "ButtonFSM",
-                    ""
+                    "yes"
                   ]
                 },
                 {
@@ -13555,7 +13761,25 @@
                   "parameters": [
                     "setting_button",
                     "ButtonFSM",
-                    ""
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "UnPauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"run\""
                   ]
                 }
               ]
@@ -13626,6 +13850,7 @@
           "colorG": 255,
           "colorR": 0,
           "creationTime": 0,
+          "folded": true,
           "name": "Collection",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13645,6 +13870,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"WOY\"",
+                    "\"info\"",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
@@ -13706,6 +13941,7 @@
           "colorG": 74,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13832,59 +14068,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "LayerVisible"
-                  },
-                  "parameters": [
-                    "",
-                    "\"MainMenu\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "coin_mastery",
-                    "ButtonFSM",
-                    "no"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "LayerVisible"
-                  },
-                  "parameters": [
-                    "",
-                    "\"MainMenu\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "coin_mastery",
-                    "ButtonFSM",
-                    "yes"
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -13966,6 +14149,7 @@
           "colorG": 0,
           "colorR": 114,
           "creationTime": 0,
+          "folded": true,
           "name": "Lose",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14485,7 +14669,7 @@
           "isLocked": false,
           "name": "Loading Screen",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -15083,11 +15267,22 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943835,
+        "zoomFactor": 0.19561100536769382,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "coin_list",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "counter",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -15107,13 +15302,65 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 180,
           "customSize": false,
+          "flippedY": true,
           "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "coin1",
           "persistentUuid": "6388619f-b8ee-4bc5-a09c-cb366ea6cad7",
+          "width": 0,
+          "x": 208,
+          "y": 315,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "flippedY": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin1",
+          "persistentUuid": "b2852dfb-71e4-4f26-905d-c4897e9718b6",
+          "width": 0,
+          "x": 208,
+          "y": 415,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "flippedY": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin1",
+          "persistentUuid": "4eb8b9c2-dc0d-4d8e-9c9e-ba51b8905aa0",
+          "width": 0,
+          "x": 208,
+          "y": 515,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "flippedY": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "coin1",
+          "persistentUuid": "449bd99b-7f4b-469e-9ca3-8857a2c46bce",
           "width": 0,
           "x": 208,
           "y": 615,
@@ -15129,57 +15376,9 @@
           "keepRatio": true,
           "layer": "",
           "name": "coin1",
-          "persistentUuid": "b2852dfb-71e4-4f26-905d-c4897e9718b6",
-          "width": 0,
-          "x": 208,
-          "y": 515,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin1",
-          "persistentUuid": "4eb8b9c2-dc0d-4d8e-9c9e-ba51b8905aa0",
-          "width": 0,
-          "x": 208,
-          "y": 415,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin1",
-          "persistentUuid": "449bd99b-7f4b-469e-9ca3-8857a2c46bce",
-          "width": 0,
-          "x": 208,
-          "y": 315,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "coin1",
           "persistentUuid": "60fea980-4415-493d-8cc8-0f0bdb2bb9dc",
           "width": 0,
-          "x": 1008,
+          "x": 408,
           "y": 315,
           "zOrder": 2,
           "numberProperties": [],
@@ -15195,7 +15394,7 @@
           "name": "coin1",
           "persistentUuid": "1b098ee2-c3c0-4c4c-b84b-cc8ebfcec795",
           "width": 0,
-          "x": 1008,
+          "x": 408,
           "y": 415,
           "zOrder": 2,
           "numberProperties": [],
@@ -15211,7 +15410,7 @@
           "name": "coin1",
           "persistentUuid": "4efbdba2-7b58-4435-be1a-6c91fdd46d1f",
           "width": 0,
-          "x": 1008,
+          "x": 408,
           "y": 515,
           "zOrder": 2,
           "numberProperties": [],
@@ -15227,7 +15426,7 @@
           "name": "coin1",
           "persistentUuid": "0f7e6401-5b9a-44d0-b6e6-3a93a8fdba5e",
           "width": 0,
-          "x": 1008,
+          "x": 408,
           "y": 615,
           "zOrder": 2,
           "numberProperties": [],
@@ -15243,7 +15442,7 @@
           "name": "coin1",
           "persistentUuid": "d4dbe317-2681-4671-86ce-88d64370438f",
           "width": 0,
-          "x": 808,
+          "x": 608,
           "y": 315,
           "zOrder": 2,
           "numberProperties": [],
@@ -15259,7 +15458,7 @@
           "name": "coin1",
           "persistentUuid": "d2f6cf74-f40e-4d21-8d7f-fa9c8f764a65",
           "width": 0,
-          "x": 808,
+          "x": 608,
           "y": 415,
           "zOrder": 2,
           "numberProperties": [],
@@ -15275,7 +15474,7 @@
           "name": "coin1",
           "persistentUuid": "7af049a9-832f-4929-9584-1925cbf2fcba",
           "width": 0,
-          "x": 808,
+          "x": 608,
           "y": 515,
           "zOrder": 2,
           "numberProperties": [],
@@ -15291,7 +15490,7 @@
           "name": "coin1",
           "persistentUuid": "03f2e0c2-b103-4b4b-b836-0d0ed556c651",
           "width": 0,
-          "x": 808,
+          "x": 608,
           "y": 615,
           "zOrder": 2,
           "numberProperties": [],
@@ -15307,7 +15506,7 @@
           "name": "coin1",
           "persistentUuid": "2f94185c-1548-4c51-8f06-81c415cfcdd3",
           "width": 0,
-          "x": 608,
+          "x": 808,
           "y": 315,
           "zOrder": 2,
           "numberProperties": [],
@@ -15323,7 +15522,7 @@
           "name": "coin1",
           "persistentUuid": "cd8535a1-44b7-4580-a3a0-71763977441d",
           "width": 0,
-          "x": 608,
+          "x": 808,
           "y": 415,
           "zOrder": 2,
           "numberProperties": [],
@@ -15339,7 +15538,7 @@
           "name": "coin1",
           "persistentUuid": "6e68f3f7-326f-4c02-8de0-e1279ec7954d",
           "width": 0,
-          "x": 608,
+          "x": 808,
           "y": 515,
           "zOrder": 2,
           "numberProperties": [],
@@ -15355,7 +15554,7 @@
           "name": "coin1",
           "persistentUuid": "71819db9-cdb4-4ff9-92be-fd92c16a9860",
           "width": 0,
-          "x": 608,
+          "x": 808,
           "y": 615,
           "zOrder": 2,
           "numberProperties": [],
@@ -15371,7 +15570,7 @@
           "name": "coin1",
           "persistentUuid": "b8da6d1e-d654-4880-ad2c-02cb962779cc",
           "width": 0,
-          "x": 408,
+          "x": 1008,
           "y": 315,
           "zOrder": 2,
           "numberProperties": [],
@@ -15387,7 +15586,7 @@
           "name": "coin1",
           "persistentUuid": "ab9a7f55-b0ce-4dc5-a77f-9f36931bff3b",
           "width": 0,
-          "x": 408,
+          "x": 1008,
           "y": 415,
           "zOrder": 2,
           "numberProperties": [],
@@ -15403,7 +15602,7 @@
           "name": "coin1",
           "persistentUuid": "375d0e7e-e72c-437a-abb7-3a7837e9fa7d",
           "width": 0,
-          "x": 408,
+          "x": 1008,
           "y": 515,
           "zOrder": 2,
           "numberProperties": [],
@@ -15419,7 +15618,7 @@
           "name": "coin1",
           "persistentUuid": "66587348-ef7b-4c15-afc9-1de126ffddfa",
           "width": 0,
-          "x": 408,
+          "x": 1008,
           "y": 615,
           "zOrder": 2,
           "numberProperties": [],
@@ -15523,6 +15722,326 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "a3c9d820-ab6e-4966-b4ed-fed5e5d78b77",
+          "width": 0,
+          "x": 1108,
+          "y": 620,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "50202538-4745-4561-b4aa-9eca2e1b727e",
+          "width": 0,
+          "x": 1108,
+          "y": 320,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "e3e45281-8ffa-4d95-ae13-57eac2efad10",
+          "width": 0,
+          "x": 1108,
+          "y": 420,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "36f28736-cc75-47e4-a7e5-bc39283fef8b",
+          "width": 0,
+          "x": 1108,
+          "y": 520,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "1e7c3c50-2bba-433b-bac0-55d9b9cfe8df",
+          "width": 0,
+          "x": 308,
+          "y": 525,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "ed2e26eb-0f41-4ab8-b8cf-e2dedf23072e",
+          "width": 0,
+          "x": 308,
+          "y": 625,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "66e32e53-ba5f-475b-b57c-051a34ec5652",
+          "width": 0,
+          "x": 308,
+          "y": 425,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "78f8fb0c-888b-46be-a492-9380b0641402",
+          "width": 0,
+          "x": 308,
+          "y": 325,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "e8049985-642f-467d-92be-4c4f773c7b2f",
+          "width": 0,
+          "x": 508,
+          "y": 525,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "9d66eff8-98c9-4e39-a618-6dfaeba06b8d",
+          "width": 0,
+          "x": 508,
+          "y": 625,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "e240f6f1-842a-462c-8e5f-fed7cf29e1a0",
+          "width": 0,
+          "x": 508,
+          "y": 425,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "794ffd4c-bdff-4cd9-91bf-2654b3f0c25f",
+          "width": 0,
+          "x": 508,
+          "y": 325,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "3b928cb8-7488-4910-8084-b0bbe09d2540",
+          "width": 0,
+          "x": 708,
+          "y": 525,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "be78ee08-35ed-47bc-a66e-0a998f272607",
+          "width": 0,
+          "x": 708,
+          "y": 625,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "84436b4e-0a3e-488f-9cb9-be1172f603a5",
+          "width": 0,
+          "x": 708,
+          "y": 425,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "790b1c39-d9e4-480d-8b43-fbde75281e21",
+          "width": 0,
+          "x": 708,
+          "y": 325,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "b0f8b4a9-6e28-43a6-811e-1b26442acf95",
+          "width": 0,
+          "x": 905,
+          "y": 425,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "5427452f-4d71-443a-836a-23e5a8dde40c",
+          "width": 0,
+          "x": 905,
+          "y": 325,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "8f26ba21-7433-4ed6-8911-1c9f295ba883",
+          "width": 0,
+          "x": 905,
+          "y": 525,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collection",
+          "persistentUuid": "4d58fce2-8b06-425c-ad53-450146f2b977",
+          "width": 0,
+          "x": 905,
+          "y": 625,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15592,13 +16111,7 @@
           "name": "coin1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "VabCoin",
-              "type": "number",
-              "value": 0
-            }
-          ],
+          "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -17027,6 +17540,49 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Collection",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -17055,6 +17611,9 @@
           },
           {
             "objectName": "back_button"
+          },
+          {
+            "objectName": "Collection"
           }
         ]
       },
@@ -17082,6 +17641,67 @@
                 "",
                 "\"Game Scene\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "counter",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "coin1",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "coin1",
+                "Animation",
+                "=",
+                "counter"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Collection",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Collection",
+                "Text",
+                "=",
+                "coin_collection[counter]"
               ]
             }
           ]
@@ -51127,7 +51747,7 @@
           "name": "RoadGen",
           "persistentUuid": "c7fb2097-2d50-41b7-b34c-ed6a65cea5bb",
           "width": 0,
-          "x": 378,
+          "x": 629,
           "y": 0,
           "zOrder": 2,
           "numberProperties": [],
@@ -51179,7 +51799,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047024555,
+        "zoomFactor": 0.4057518905943907,
         "windowMask": false
       }
     },
@@ -57417,7 +58037,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.26905646861907917,
+        "zoomFactor": 0.5398929383612279,
         "windowMask": false
       }
     },
