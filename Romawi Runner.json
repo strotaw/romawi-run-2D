@@ -16,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "e7ffccd7-b6ff-46c0-a16d-839643254b5a",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "scaleOuter",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Romawi Runner",
@@ -91,22 +91,6 @@
   },
   "resources": {
     "resources": [
-      {
-        "file": "ciang.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ciang.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../../../../Downloads/jalan sore (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\..\\Downloads\\jalan sore (1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
       {
         "file": "jalan siang (1).png",
         "kind": "image",
@@ -196,14 +180,6 @@
         "userAdded": false
       },
       {
-        "file": "marcus jalan 1 1 (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "marcus jalan 1 1 (1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "marcus jalan 2.png",
         "kind": "image",
         "metadata": "",
@@ -236,50 +212,10 @@
         "userAdded": false
       },
       {
-        "file": "Group 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Group 3.png",
         "kind": "image",
         "metadata": "",
         "name": "Group 3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Group 4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Group 5(1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 5(1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Group 6(1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 6(1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Group 7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 7.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -344,14 +280,6 @@
         "kind": "image",
         "metadata": "",
         "name": "semak semak 1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "kayu 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "kayu 1.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -436,14 +364,6 @@
         "userAdded": false
       },
       {
-        "file": "kayu 1(1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "kayu 1(1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "kayu 2.png",
         "kind": "image",
         "metadata": "",
@@ -476,46 +396,6 @@
         "userAdded": false
       },
       {
-        "file": "kayu 6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "kayu 6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "kayu 7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "kayu 7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "kayu 8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "kayu 8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "kayu 9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "kayu 9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Group 33.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 33.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Group 33 (1).png",
         "kind": "image",
         "metadata": "",
@@ -528,78 +408,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "ular 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ular 1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "ular 1 (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ular 1 (1).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "ular 1 (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ular 1 (2).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 34.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 34.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 34 (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 34 (1).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 34 (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 34 (2).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 34 (2)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 34 (2)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 34 (3).png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"Group 34 (3).png\",\"extension\":\".png\"}",
-        "name": "Group 34 (3).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "core 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "core 1.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -776,14 +584,6 @@
         "kind": "image",
         "metadata": "",
         "name": "jalan malam (1).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 37 (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 37 (1).png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1260,14 +1060,6 @@
         "userAdded": false
       },
       {
-        "file": "sound silent mentah 3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sound silent mentah 3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Property 1=menu 1.png",
         "kind": "image",
         "metadata": "",
@@ -1348,14 +1140,6 @@
         "userAdded": false
       },
       {
-        "file": "loading 3.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"loading 3.png\",\"extension\":\".png\"}",
-        "name": "loading 3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "coin rome 3.png",
         "kind": "image",
         "metadata": "",
@@ -1368,14 +1152,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "loading 3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "snake 1.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"snake 1.png\",\"extension\":\".png\"}",
-        "name": "snake 1.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1396,14 +1172,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Minecraft.ttf",
         "kind": "font",
         "metadata": "",
@@ -1411,170 +1179,10 @@
         "userAdded": false
       },
       {
-        "file": "Group 43 (8).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (8).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (7).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (7).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (6).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (6).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (5).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (5).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (4).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (4).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (3).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (3).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (2).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (1).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Group 43.png",
         "kind": "image",
         "metadata": "",
         "name": "Group 43.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (9).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (9).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (10).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (10).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (11).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (11).png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "SOUND 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "SOUND 2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (7)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (7)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (6)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (6)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (5)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (5)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (4)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (4)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (3)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (3)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (2)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (2)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group 43 (1)2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group 43 (1)2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Group44.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Group44.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1649,6 +1257,478 @@
         "name": "Group45.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "asap 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "asap 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "asap 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "asap 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "asap 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "asap 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "asap 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "asap 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "asap 8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "siang yuna (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "siang yuna (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "siang yuna 1 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "siang yuna 1 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "roma irama runtuh.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "roma irama runtuh.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "roma irama.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "roma irama.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "umput 1 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "umput 1 (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Backsound 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Backsound 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Backsound 2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Backsound 2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/Gurinda Besar.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\Gurinda Besar.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Berlari di tanah (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Berlari di tanah (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Berlari di Kayu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Berlari di Kayu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Melompat.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Melompat.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dash.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Dash.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Terkena Damage.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Terkena Damage.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Jatuh ke Air.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Jatuh ke Air.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Terbang.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Terbang.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Kuda.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kuda.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "White Flash.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "White Flash.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ledakan Asap (1).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ledakan Asap (1).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Notice (Tanda Seru).wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Notice (Tanda Seru).wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Gurinda Besar.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Gurinda Besar.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Semak Semak.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Semak Semak.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Rintangan Api.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Rintangan Api.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Setting.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Setting.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Paper Scroll.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Paper Scroll.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Kumpulkan Coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kumpulkan Coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Perfect.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Perfect.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Great.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Great.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Press Start.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Press Start.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "10000000 Coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "10000000 Coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Back.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Back.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Back2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Back2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Snake Rattle.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Snake Rattle.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Snake Rattle2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Snake Rattle2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Snake Hiss 3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Snake Hiss 3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Snake Hiss 2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Snake Hiss 2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Lumpur.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lumpur.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Siang Cerah.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Siang Cerah.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sore.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sore.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Malam.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Malam.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1665,130 +1745,150 @@
       "value": 0
     },
     {
-      "name": "highscore",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "isMuted",
-      "type": "number",
-      "value": 0
-    },
-    {
       "name": "canSlide",
       "type": "number",
       "value": 0
     },
     {
-      "folded": true,
-      "name": "coin_collection",
-      "type": "array",
+      "name": "temp_load",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "game",
+      "type": "structure",
       "children": [
         {
+          "folded": true,
+          "name": "Sound",
+          "type": "structure",
+          "children": [
+            {
+              "name": "isMutedMusic",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "isMutedSound",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "best_run",
           "type": "number",
           "value": 0
         },
         {
-          "type": "number",
-          "value": 0
+          "folded": true,
+          "name": "coin_collection",
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            }
+          ]
         },
         {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
-        },
-        {
-          "type": "number",
-          "value": 0
+          "folded": true,
+          "name": "scoring_point",
+          "type": "structure",
+          "children": [
+            {
+              "name": "great",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "perfect",
+              "type": "number",
+              "value": 0
+            }
+          ]
         }
       ]
-    },
-    {
-      "name": "perfect",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "great",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "temp_load",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "name": "best_run",
-      "type": "number",
-      "value": 0
     },
     {
       "name": "lose",
@@ -1817,7 +1917,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23089183385226653,
+        "zoomFactor": 0.3437520241612595,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1866,6 +1966,78 @@
             },
             {
               "name": "road2"
+            }
+          ]
+        },
+        {
+          "name": "all_kind",
+          "objects": [
+            {
+              "name": "background"
+            },
+            {
+              "name": "road"
+            },
+            {
+              "name": "platform"
+            },
+            {
+              "name": "water"
+            },
+            {
+              "name": "background1"
+            },
+            {
+              "name": "background2"
+            },
+            {
+              "name": "platform1"
+            },
+            {
+              "name": "road_cave"
+            },
+            {
+              "name": "platform2"
+            },
+            {
+              "name": "background3"
+            },
+            {
+              "name": "road1"
+            },
+            {
+              "name": "road2"
+            },
+            {
+              "name": "background4"
+            },
+            {
+              "name": "background5"
+            }
+          ]
+        },
+        {
+          "name": "platform3",
+          "objects": [
+            {
+              "name": "platform"
+            },
+            {
+              "name": "platform1"
+            },
+            {
+              "name": "platform2"
+            }
+          ]
+        },
+        {
+          "name": "button_main",
+          "objects": [
+            {
+              "name": "setting_button"
+            },
+            {
+              "name": "coin_mastery"
             }
           ]
         }
@@ -1995,6 +2167,16 @@
           "name": "timer",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "death",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "playable",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -2040,7 +2222,7 @@
           "name": "boundaries",
           "persistentUuid": "6eaae22f-f521-400f-8cf4-5c919f45e6ed",
           "width": 64,
-          "x": -1344,
+          "x": -1345,
           "y": 0,
           "zOrder": 5,
           "numberProperties": [],
@@ -2318,23 +2500,6 @@
           "x": 759,
           "y": 341,
           "zOrder": 112,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "Score",
-          "name": "Marcus_dead",
-          "persistentUuid": "e797f197-a8a2-4400-b8e8-7a684c535688",
-          "width": 1358,
-          "x": -2,
-          "y": 723,
-          "zOrder": 113,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3276,22 +3441,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "horse_item",
-          "persistentUuid": "67b4a15b-096b-4071-aa52-5238b584ed2e",
-          "width": 0,
-          "x": 1021,
-          "y": 547,
-          "zOrder": 412,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 57,
@@ -3320,6 +3469,24 @@
           "x": 959,
           "y": 597,
           "zOrder": 414,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 548,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Touch",
+          "opacity": 0,
+          "persistentUuid": "1e3fcc56-671b-40c0-889a-5798ccf4a00f",
+          "width": 1279,
+          "x": 0,
+          "y": 172,
+          "zOrder": 415,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3525,11 +3692,10 @@
           "effects": [],
           "behaviors": [
             {
-              "isFolded": true,
+              "acceleration": 1500,
+              "maxSpeed": 250,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 250,
-              "acceleration": 1499,
               "canGrabPlatforms": false,
               "canGoDownFromJumpthru": false,
               "deceleration": 0,
@@ -3763,7 +3929,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.3,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -6946,12 +7112,16 @@
                             "y": 93
                           },
                           {
-                            "x": 61.5,
-                            "y": 15
+                            "x": 0,
+                            "y": 24
                           },
                           {
-                            "x": 394.5,
-                            "y": 19
+                            "x": 48.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 402.5,
+                            "y": 1
                           },
                           {
                             "x": 432,
@@ -6990,12 +7160,16 @@
                             "y": 93
                           },
                           {
-                            "x": 61.5,
-                            "y": 15
+                            "x": 0,
+                            "y": 24
                           },
                           {
-                            "x": 394.5,
-                            "y": 19
+                            "x": 48.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 402.5,
+                            "y": 1
                           },
                           {
                             "x": 432,
@@ -9718,7 +9892,7 @@
           "effects": [],
           "behaviors": [],
           "string": "0",
-          "font": "",
+          "font": "Minecraft.ttf",
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
@@ -9741,7 +9915,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "0",
-            "font": "",
+            "font": "Minecraft.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 40,
@@ -9889,7 +10063,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "NewSprite",
@@ -13601,6 +13783,690 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "smoke",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "asap 8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 108,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 127
+                          },
+                          {
+                            "x": 286,
+                            "y": 305
+                          },
+                          {
+                            "x": 108,
+                            "y": 305
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "yunani1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "siang yuna (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 56
+                          },
+                          {
+                            "x": 480,
+                            "y": 56
+                          },
+                          {
+                            "x": 480,
+                            "y": 384
+                          },
+                          {
+                            "x": 40,
+                            "y": 384
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "yunani2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "siang yuna 1 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 144
+                          },
+                          {
+                            "x": 672,
+                            "y": 144
+                          },
+                          {
+                            "x": 672,
+                            "y": 368
+                          },
+                          {
+                            "x": 16,
+                            "y": 368
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "roma1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "roma irama runtuh.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32,
+                            "y": 176
+                          },
+                          {
+                            "x": 224,
+                            "y": 176
+                          },
+                          {
+                            "x": 224,
+                            "y": 316
+                          },
+                          {
+                            "x": 32,
+                            "y": 316
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "roma2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "roma irama.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 164
+                          },
+                          {
+                            "x": 220,
+                            "y": 164
+                          },
+                          {
+                            "x": 220,
+                            "y": 316
+                          },
+                          {
+                            "x": 40,
+                            "y": 316
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "rumput",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "umput 1 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 240
+                          },
+                          {
+                            "x": 656,
+                            "y": 240
+                          },
+                          {
+                            "x": 656,
+                            "y": 408
+                          },
+                          {
+                            "x": 40,
+                            "y": 408
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Touch",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13727,6 +14593,9 @@
             "objectName": "setting_button"
           },
           {
+            "objectName": "Touch"
+          },
+          {
             "objectName": "alert"
           },
           {
@@ -13797,10 +14666,76 @@
           },
           {
             "objectName": "kuda_bar"
+          },
+          {
+            "objectName": "smoke"
+          },
+          {
+            "objectName": "yunani1"
+          },
+          {
+            "objectName": "yunani2"
+          },
+          {
+            "objectName": "roma1"
+          },
+          {
+            "objectName": "roma2"
+          },
+          {
+            "objectName": "rumput"
           }
         ]
       },
       "events": [
+        {
+          "colorB": 58,
+          "colorG": 38,
+          "colorR": 0,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Save",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"game\"",
+                    "\"save\"",
+                    "",
+                    "temp_load"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "temp_load",
+                    "game"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
         {
           "colorB": 0,
           "colorG": 0,
@@ -13812,8 +14747,19 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "clicked",
+                    "=",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "NumberVariable"
@@ -13867,9 +14813,138 @@
                     "650"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "marcus",
+                        "road_group",
+                        "road_group",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Berlari di tanah (1).wav",
+                        "3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "marcus",
+                        "platform3",
+                        "platform3",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Berlari di Kayu.wav",
+                        "3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Space\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseSoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13933,6 +15008,37 @@
                     "JumpCount",
                     "+",
                     "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::IsJumping"
+                      },
+                      "parameters": [
+                        "marcus",
+                        "PlatformerObject"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Melompat.wav",
+                        "4",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -14002,6 +15108,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Dash.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -14261,34 +15380,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Coin",
-                    "boundaries",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Coin",
-                    ""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -14513,6 +15604,7 @@
               "comment": "Generate Road Map Pagi"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14645,6 +15737,7 @@
               "comment": "Generate Road Map"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14671,6 +15764,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14760,6 +15854,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14849,6 +15944,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14972,16 +16068,6 @@
                         "=",
                         "0"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "end",
-                        "=",
-                        "0"
-                      ]
                     }
                   ],
                   "events": [
@@ -15060,7 +16146,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"map\"",
+                    "\"transition\"",
                     ">=",
                     "20"
                   ]
@@ -15096,7 +16182,7 @@
                 },
                 {
                   "type": {
-                    "value": "PauseTimer"
+                    "value": "UnPauseTimer"
                   },
                   "parameters": [
                     "",
@@ -15105,12 +16191,11 @@
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "ShowLayer"
                   },
                   "parameters": [
-                    "transisi",
-                    "=",
-                    "1"
+                    "",
+                    "\"Score\""
                   ]
                 },
                 {
@@ -15128,113 +16213,9 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "result_transition",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"transition\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Transisi Masuk Ke Goa Buat Show Score"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"map\"",
-                    ">=",
-                    "40"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "end",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Transition1\"",
-                    "RoadGen.X()",
-                    "RoadGen.Y()",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "RoadGen",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
                     "transisi",
                     "=",
                     "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Score\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "UnPauseTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"run\""
                   ]
                 },
                 {
@@ -15261,6 +16242,7 @@
               "comment": "Result"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15269,9 +16251,9 @@
                   },
                   "parameters": [
                     "",
-                    "\"map\"",
+                    "\"transition\"",
                     ">=",
-                    "25"
+                    "10"
                   ]
                 },
                 {
@@ -15280,9 +16262,9 @@
                   },
                   "parameters": [
                     "",
-                    "\"map\"",
+                    "\"transition\"",
                     "<=",
-                    "30"
+                    "15"
                   ]
                 }
               ],
@@ -15345,26 +16327,6 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "end",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "result_transition",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
                     "point",
                     "=",
                     "0"
@@ -15380,7 +16342,101 @@
                     "0"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"result\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "result",
+                        "Animation",
+                        "=",
+                        "\"1\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Perfect.wav",
+                        "4",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"result\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "result",
+                        "Animation",
+                        "=",
+                        "\"2\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Great.wav",
+                        "4",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Transisi Masuk Ke Goa Buat Show Score"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -15393,11 +16449,97 @@
                     "",
                     "\"map\"",
                     ">=",
-                    "35"
+                    "90"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Transition1\"",
+                    "RoadGen.X()",
+                    "RoadGen.Y()",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "RoadGen",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"run\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "transisi",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"transition\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"transition\"",
+                    ">=",
+                    "15"
                   ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Kumpulkan Coin.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "ShowLayer"
@@ -15412,7 +16554,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "5"
+                    "3"
                   ]
                 },
                 {
@@ -15440,6 +16582,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15464,40 +16607,31 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Coin.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
                     "Coin",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "missed",
-                    "\"info\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"COIN 1 \"+ coin1.VabCoin",
-                    "\"info\"",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"COIN 2 \"+ coin2.VabCoin",
-                    "\"info\"",
                     ""
                   ]
                 }
@@ -15541,7 +16675,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "coin_collection[Coin.VabCoin]",
+                        "game.coin_collection[Coin.VabCoin]",
                         "+",
                         "1"
                       ]
@@ -15552,16 +16686,6 @@
                       },
                       "parameters": [
                         "point",
-                        "+",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "highscore",
                         "+",
                         "1"
                       ]
@@ -15721,6 +16845,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Terkena Damage.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CameraShake::ShakeCamera"
                   },
                   "parameters": [
@@ -15743,13 +16880,26 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Snake Rattle.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                   },
                   "parameters": [
                     "big_snake",
                     "Tween",
                     "\"\"",
-                    "marcus.X()+150",
+                    "marcus.X()+200",
                     "\"linear\"",
                     "1",
                     ""
@@ -15793,17 +16943,6 @@
                     },
                     {
                       "type": {
-                        "value": "PlatformBehavior::MaxSpeed"
-                      },
-                      "parameters": [
-                        "marcus",
-                        "PlatformerObject",
-                        "=",
-                        "150"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Wait"
                       },
                       "parameters": [
@@ -15812,13 +16951,13 @@
                     },
                     {
                       "type": {
-                        "value": "PlatformBehavior::MaxSpeed"
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
                         "marcus",
-                        "PlatformerObject",
+                        "Animation",
                         "=",
-                        "250"
+                        "\"Run\""
                       ]
                     }
                   ]
@@ -15869,6 +17008,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Snake Hiss 3.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                   },
                   "parameters": [
@@ -15894,8 +17046,30 @@
               ]
             },
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Kalo Collision Sama Air Jatuh"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "power",
+                    "=",
+                    "0"
+                  ]
+                },
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -15907,19 +17081,22 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "power",
-                    "=",
-                    "0"
-                  ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Jatuh ke Air.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "CameraShake::ShakeCamera"
@@ -15940,6 +17117,43 @@
                     "road_group",
                     "Platform",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "marcus",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "death",
+                    "=",
+                    "1"
                   ]
                 }
               ]
@@ -15976,6 +17190,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Terbang.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -15991,19 +17218,12 @@
                 },
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
+                    "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "marcus",
-                    ""
+                    "PlatformerObject",
+                    "no"
                   ]
                 }
               ]
@@ -16017,10 +17237,38 @@
           "colorR": 0,
           "creationTime": 0,
           "folded": true,
-          "name": "Obstacle",
+          "name": "Boundaries",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Coin",
+                    "boundaries",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Coin",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -16044,6 +17292,34 @@
                   },
                   "parameters": [
                     "obstacle",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "all_kind",
+                    "boundaries",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "all_kind",
                     ""
                   ]
                 }
@@ -16109,6 +17385,7 @@
           "colorG": 166,
           "colorR": 245,
           "creationTime": 0,
+          "folded": true,
           "name": "Horse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16183,6 +17460,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "White Flash.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -16205,6 +17495,61 @@
                   "parameters": [
                     "",
                     "\"Flash\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "smoke",
+                    "marcus.X()+100",
+                    "marcus.Y()-100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Ledakan Asap (1).wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "smoke",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Kuda.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -16440,6 +17785,48 @@
                 },
                 {
                   "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "smoke",
+                    "marcus.X()+100",
+                    "marcus.Y()-100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Ledakan Asap (1).wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "smoke",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PlatformBehavior::MaxSpeed"
                   },
                   "parameters": [
@@ -16520,6 +17907,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Touch",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -16570,13 +17967,15 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
-                    "result",
-                    "Animation",
-                    "=",
-                    "\"3\""
+                    "",
+                    "Paper Scroll.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -16646,26 +18045,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "AnyKeyPressed"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HasAnyTouchOrMouseStarted"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "Touch",
+                    "ButtonFSM",
+                    ""
                   ]
                 },
                 {
@@ -16690,6 +18075,29 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Press Start.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "clicked",
+                    "=",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "HideLayer"
@@ -16729,9 +18137,19 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "clicked",
+                    "playable",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Touch",
+                    "ButtonFSM",
+                    "no"
                   ]
                 }
               ]
@@ -16770,6 +18188,15 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PauseSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -16803,6 +18230,19 @@
                   },
                   "parameters": [
                     "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Notice (Tanda Seru).wav",
+                    "4",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -16858,6 +18298,19 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Snake Hiss 2.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetCameraCenterX"
                   },
                   "parameters": [
@@ -16874,6 +18327,15 @@
                   },
                   "parameters": [
                     "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
                   ]
                 },
                 {
@@ -16999,6 +18461,28 @@
               "actions": [
                 {
                   "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "10000000 Coin.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -17103,6 +18587,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Setting.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ShowLayer"
                   },
                   "parameters": [
@@ -17157,6 +18654,16 @@
                     "",
                     "\"run\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"game\"",
+                    "\"save\"",
+                    "ToJSON(game)"
+                  ]
                 }
               ]
             },
@@ -17190,7 +18697,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "isMuted",
+                    "game.Sound.isMutedMusic",
                     "=",
                     "0"
                   ]
@@ -17227,7 +18734,81 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "isMuted",
+                    "game.Sound.isMutedMusic",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                  },
+                  "parameters": [
+                    "Switch_Sound",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "sound",
+                    "Animation",
+                    "=",
+                    "\"nyala\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "game.Sound.isMutedSound",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
+                  },
+                  "parameters": [
+                    "Switch_Sound",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "sound",
+                    "Animation",
+                    "=",
+                    "\"mati\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "game.Sound.isMutedSound",
                     "=",
                     "1"
                   ]
@@ -17249,6 +18830,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Back2.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "HideLayer"
@@ -17309,6 +18903,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17325,6 +18920,32 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Menu.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Paper Scroll.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
@@ -17335,6 +18956,15 @@
                     "\"linear\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
                   ]
                 },
                 {
@@ -17444,7 +19074,17 @@
                     "collection_coin",
                     "Text",
                     "=",
-                    "coin_collection[counter2]"
+                    "game.coin_collection[counter2]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"game\"",
+                    "\"save\"",
+                    "ToJSON(game)"
                   ]
                 }
               ]
@@ -17472,6 +19112,19 @@
                     "",
                     "",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Paper Scroll.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -17504,6 +19157,41 @@
                     "",
                     "\"collection\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Paper Scroll.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Loading_Background",
+                    "Tween",
+                    "\"loading\"",
+                    "761",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
                 }
               ]
             },
@@ -17524,6 +19212,32 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Back.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Paper Scroll.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
                   },
                   "parameters": [
@@ -17534,6 +19248,23 @@
                     "\"easeOutQuad\"",
                     "0.5",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
                   ]
                 },
                 {
@@ -17594,7 +19325,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "perfect",
+                    "game.scoring_point.perfect",
                     "+",
                     "1"
                   ]
@@ -17637,7 +19368,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "great",
+                    "game.scoring_point.great",
                     "+",
                     "1"
                   ]
@@ -17656,7 +19387,17 @@
                     "perfect_text",
                     "Text",
                     "=",
-                    "\"Perfect : \"+ perfect"
+                    "\"Perfect : \" + game.scoring_point.perfect"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"game\"",
+                    "\"save\"",
+                    "ToJSON(game)"
                   ]
                 }
               ]
@@ -17673,7 +19414,17 @@
                     "great_text",
                     "Text",
                     "=",
-                    "\"Great : \"+ great"
+                    "\"Great : \"+ game.scoring_point.great"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EcrireFichierTxt"
+                  },
+                  "parameters": [
+                    "\"game\"",
+                    "\"save\"",
+                    "ToJSON(game)"
                   ]
                 }
               ]
@@ -17686,7 +19437,6 @@
           "colorG": 74,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17727,6 +19477,16 @@
                 },
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Touch",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
                   },
                   "parameters": [
@@ -17794,6 +19554,16 @@
                 },
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Touch",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
                   },
                   "parameters": [
@@ -17868,7 +19638,6 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17877,7 +19646,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"MainMenu\""
+                    "\"collection\""
                   ]
                 }
               ],
@@ -17887,15 +19656,24 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
+                    "Touch",
+                    "ButtonFSM",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
                     "coin_mastery",
                     "ButtonFSM",
-                    "yes"
+                    "no"
                   ]
                 }
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17905,7 +19683,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"MainMenu\""
+                    "\"collection\""
                   ]
                 }
               ],
@@ -17915,9 +19693,19 @@
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
+                    "Touch",
+                    "ButtonFSM",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
                     "coin_mastery",
                     "ButtonFSM",
-                    "no"
+                    "yes"
                   ]
                 }
               ]
@@ -18020,6 +19808,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -18041,7 +19830,7 @@
                     "timer_best",
                     "Text",
                     "=",
-                    "\"Timer: \"+best_run"
+                    "\"Timer: \"+game.best_run"
                   ]
                 }
               ],
@@ -18056,7 +19845,7 @@
                       "parameters": [
                         "timer",
                         ">=",
-                        "best_run"
+                        "game.best_run"
                       ]
                     }
                   ],
@@ -18066,7 +19855,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "best_run",
+                        "game.best_run",
                         "=",
                         "timer"
                       ]
@@ -18079,26 +19868,19 @@
                         "timer_best",
                         "Text",
                         "=",
-                        "\"Timer: \"+best_run"
+                        "\"Timer: \"+game.best_run"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EcrireFichierTxt"
+                      },
+                      "parameters": [
+                        "\"game\"",
+                        "\"save\"",
+                        "ToJSON(game)"
                       ]
                     }
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "EcrireFichierTxt"
-                  },
-                  "parameters": [
-                    "\"game\"",
-                    "\"timer\"",
-                    "ToJSON(game)"
                   ]
                 }
               ]
@@ -18139,7 +19921,7 @@
                     "big_snake",
                     "Tween",
                     "\"\"",
-                    "Marcus_box.X()+3000",
+                    "marcus.X()+3000",
                     "\"linear\"",
                     "1",
                     "yes"
@@ -18151,6 +19933,55 @@
                   },
                   "parameters": [
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "death",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "death",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Paper Scroll.wav",
+                    "4",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -18193,6 +20024,561 @@
                     "",
                     "\"Loading Scene\"",
                     ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 0,
+          "colorG": 155,
+          "colorR": 132,
+          "creationTime": 0,
+          "folded": true,
+          "name": "BGM",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Backsound 2.wav",
+                    "1",
+                    "yes",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "clicked",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "playable",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Backsound 1.wav",
+                    "2",
+                    "yes",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 255,
+          "colorG": 23,
+          "colorR": 0,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Sound",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "gear",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "gear",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Gurinda Besar.wav",
+                    "5",
+                    "10",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "bush",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "bush",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Semak Semak.wav",
+                    "5",
+                    "10",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "fire",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "fire",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Rintangan Api.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "background2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Lumpur.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "background",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Siang Cerah.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "background1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sore.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Layer"
+                  },
+                  "parameters": [
+                    "background3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Malam.wav",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "game.Sound.isMutedMusic",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "game.Sound.isMutedMusic",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "game.Sound.isMutedSound",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "4",
+                    "=",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "game.Sound.isMutedMusic",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "4",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -18795,6 +21181,59 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -18863,7 +21302,7 @@
       "name": "Loading Scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -19168,7 +21607,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "5"
+                "3.5"
               ]
             },
             {
@@ -53116,6 +55555,173 @@
         }
       ],
       "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "Audio",
+      "extensionNamespace": "",
+      "fullName": "Sound volume based on distance",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8cmVjdCB4PSI2IiB5PSIzIiBjbGFzcz0ic3QxIiB3aWR0aD0iMjAiIGhlaWdodD0iMjYiLz4NCjxjaXJjbGUgY2xhc3M9InN0MSIgY3g9IjE2IiBjeT0iMTkiIHI9IjciLz4NCjxjaXJjbGUgY2xhc3M9InN0MSIgY3g9IjE2IiBjeT0iMTkiIHI9IjIiLz4NCjxjaXJjbGUgY2xhc3M9InN0MSIgY3g9IjIxIiBjeT0iOCIgcj0iMiIvPg0KPC9zdmc+DQo=",
+      "name": "SoundVolumeBasedOnDistance",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Music/Music_speaker_audio_sound.svg",
+      "shortDescription": "Make any sound volume on any channel increase and decrease based on distance.",
+      "version": "1.0.2",
+      "description": [
+        "# User can",
+        "- Set any channel volume based on the distance betwen 2 objects.",
+        "- Use the extension action multi times on different objects.",
+        "- Set the Sound range.",
+        "- Set the maximum volume range.",
+        "",
+        "# Example",
+        "![](https://i.imgur.com/uBgnRU7.png)"
+      ],
+      "origin": {
+        "identifier": "SoundVolumeBasedOnDistance",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sound",
+        "volume",
+        "distance"
+      ],
+      "authorIds": [
+        "IRIhkkTTl2UHhfjrLTTH5GYwkYu1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Change a channel volume based on distance between 2 objects.",
+          "fullName": "Sound volume based on distance",
+          "functionType": "Action",
+          "name": "SoundObjects",
+          "sentence": "Change channel _PARAM3_ volume based on the distance between _PARAM1_ and _PARAM2_ at _PARAM4_ sound range and _PARAM5_ max volume range",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Channel",
+                    "=",
+                    "Source.Variable(__SoundVolumeBasedOnDistance.Audio)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Source",
+                    "__SoundVolumeBasedOnDistance.Audio",
+                    "=",
+                    "Full-DistanceBetweenPositions(Player.BoundingBoxCenterX(), Player.BoundingBoxCenterY(), Source.BoundingBoxCenterX(), Source.BoundingBoxCenterY())/Range"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Source",
+                    "__SoundVolumeBasedOnDistance.Audio",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Source",
+                    "__SoundVolumeBasedOnDistance.Audio",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Source",
+                    "__SoundVolumeBasedOnDistance.Audio",
+                    ">",
+                    "100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Source",
+                    "__SoundVolumeBasedOnDistance.Audio",
+                    "=",
+                    "100"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Player object",
+              "name": "Player",
+              "type": "objectList"
+            },
+            {
+              "description": "Sound source object",
+              "name": "Source",
+              "type": "objectList"
+            },
+            {
+              "description": "Sound channel",
+              "name": "Channel",
+              "type": "expression"
+            },
+            {
+              "description": "Sound range",
+              "longDescription": "How far the player can go before the sound start fading out.",
+              "name": "Range",
+              "type": "expression"
+            },
+            {
+              "description": "Max volume range (in pixels)",
+              "longDescription": "Distance between object and sound source object to get the maximum volume.  \n*Note: increasing max volume range will also increase the sound range.*",
+              "name": "Full",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
     }
   ],
   "externalLayouts": [
@@ -53576,6 +56182,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani1",
+          "persistentUuid": "8ec5b5c5-cf63-420a-84f7-c3eebf8e984e",
+          "width": 0,
+          "x": 589,
+          "y": 292,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rumput",
+          "persistentUuid": "8b08b8c9-f1f8-49fa-ad47-9530705274e6",
+          "width": 0,
+          "x": -4,
+          "y": 263,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -53865,6 +56503,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani2",
+          "persistentUuid": "2b497a32-e7b6-4b58-bdb5-d41b10fdbc9f",
+          "width": 0,
+          "x": 68,
+          "y": 306,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -53944,8 +56598,8 @@
           "name": "log",
           "persistentUuid": "b97afdd8-05e1-46a6-8c35-df698c593aeb",
           "width": 100,
-          "x": 1088,
-          "y": 332,
+          "x": 773,
+          "y": 341,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -54169,6 +56823,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rumput",
+          "persistentUuid": "c23a0458-5fc4-4557-974b-e24c20ad4dd9",
+          "width": 0,
+          "x": 77,
+          "y": 268,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -54181,7 +56851,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.472819540636929,
+        "zoomFactor": 0.3282931214416195,
         "windowMask": false
       }
     },
@@ -54433,6 +57103,22 @@
           "width": 1281,
           "x": 0,
           "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani1",
+          "persistentUuid": "a71045c0-6cb7-4a18-9821-89888674c8b5",
+          "width": 0,
+          "x": 65,
+          "y": 291,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -54773,6 +57459,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani2",
+          "persistentUuid": "6697d2d9-f139-4a8e-bd7a-e33c00504591",
+          "width": 0,
+          "x": 41,
+          "y": 309,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rumput",
+          "persistentUuid": "07a825dc-59de-42b5-bd0e-b52ce0456d8f",
+          "width": 0,
+          "x": 649,
+          "y": 268,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -55061,6 +57779,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani1",
+          "persistentUuid": "92d13838-4246-4bd7-8ad3-3f0e737ce52a",
+          "width": 0,
+          "x": 775,
+          "y": 296,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -55313,6 +58047,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani2",
+          "persistentUuid": "1cc3511f-b0fc-478c-9c87-fafcbc1981cb",
+          "width": 0,
+          "x": 43,
+          "y": 313,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani1",
+          "persistentUuid": "8433a79e-dcbb-4169-9e25-38394f21a04c",
+          "width": 0,
+          "x": 745,
+          "y": 291,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -55325,7 +58091,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.45739599665243086,
+        "zoomFactor": 0.387504786390991,
         "windowMask": false
       }
     },
@@ -55634,6 +58400,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rumput",
+          "persistentUuid": "9d0baad4-4eb9-4adb-befe-8cc9683f8489",
+          "width": 0,
+          "x": 590,
+          "y": 265,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -55919,6 +58701,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani2",
+          "persistentUuid": "f2d416d1-34d4-408c-9ca3-52bdfc064f77",
+          "width": 0,
+          "x": 314,
+          "y": 308,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -55931,7 +58729,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0833576549500876,
+        "zoomFactor": 0.37486424046715905,
         "windowMask": false
       }
     },
@@ -56238,6 +59036,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani1",
+          "persistentUuid": "a9843935-e72f-481b-a3e1-3139b9017f71",
+          "width": 0,
+          "x": 91,
+          "y": 291,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "yunani2",
+          "persistentUuid": "581f735f-cfe6-4fb4-997a-b7e5e92f69f5",
+          "width": 0,
+          "x": 730,
+          "y": 306,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -56506,6 +59336,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 686,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma1",
+          "persistentUuid": "f6deb5a5-e83a-4319-bc46-25e46a9e0089",
+          "width": 424,
+          "x": 56,
+          "y": -11,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 595,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma2",
+          "persistentUuid": "a1e5729b-7f18-4cef-863c-1e93e18b08bf",
+          "width": 562,
+          "x": 634,
+          "y": 74,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -56741,6 +59605,23 @@
           "x": 500,
           "y": 310,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 643,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma2",
+          "persistentUuid": "60012cbe-b296-49c9-8aac-c3e08a505b71",
+          "width": 541,
+          "x": 488,
+          "y": 30,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57045,6 +59926,23 @@
           "x": 1080,
           "y": 550,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 809,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma1",
+          "persistentUuid": "492d5133-8928-4f12-b318-4092c8da166b",
+          "width": 720,
+          "x": 374,
+          "y": -131,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -57368,6 +60266,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 786,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma2",
+          "persistentUuid": "37b9e2d3-9bde-4a40-8eb6-d86fb7ad2e5e",
+          "width": 548,
+          "x": 122,
+          "y": -107,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 587,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma1",
+          "persistentUuid": "0eed85e5-650a-4a66-bd92-3a42172b410c",
+          "width": 509,
+          "x": 790,
+          "y": 83,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -57683,6 +60615,23 @@
           "x": 350,
           "y": 550,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 666,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma1",
+          "persistentUuid": "94668197-354b-4eb8-8103-fd66cdd7c6b6",
+          "width": 649,
+          "x": 245,
+          "y": 0,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -58040,6 +60989,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 749,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma2",
+          "persistentUuid": "b87a38d7-2de7-4def-82dc-940a61ff711f",
+          "width": 551,
+          "x": 753,
+          "y": -74,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -58356,6 +61322,40 @@
           "x": 590,
           "y": 550,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 717,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma2",
+          "persistentUuid": "0e350299-9d04-453f-958a-b941cb57c32e",
+          "width": 594,
+          "x": 625,
+          "y": -35,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 498,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma1",
+          "persistentUuid": "5bdf2946-3542-45f2-a532-62c38514ada2",
+          "width": 434,
+          "x": 164,
+          "y": 176,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -58680,6 +61680,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 620,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma2",
+          "persistentUuid": "c5faceb5-b10c-49e9-bf62-76836bbb7634",
+          "width": 456,
+          "x": 463,
+          "y": 58,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -58949,6 +61966,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 568,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma1",
+          "persistentUuid": "3f32b89c-0553-42ef-bd31-b06579c5845a",
+          "width": 541,
+          "x": 217,
+          "y": 107,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -59011,8 +62045,8 @@
           "layer": "",
           "name": "platform2",
           "persistentUuid": "21263e02-7420-44a2-9976-ac5384d0be11",
-          "width": 1298,
-          "x": -8,
+          "width": 514,
+          "x": 770,
           "y": 400,
           "zOrder": 3,
           "numberProperties": [],
@@ -59045,7 +62079,7 @@
           "layer": "",
           "name": "water",
           "persistentUuid": "c2ed1cf5-18d4-4f4d-afbb-4c508290689d",
-          "width": 209,
+          "width": 132,
           "x": 388,
           "y": 669,
           "zOrder": 10,
@@ -59270,6 +62304,57 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 549,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma1",
+          "persistentUuid": "e07e343e-ef01-4c18-b7d1-f58560bdea5d",
+          "width": 558,
+          "x": 772,
+          "y": 125,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 593,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roma2",
+          "persistentUuid": "bee6563b-70f0-4b41-a999-00b14a37fb51",
+          "width": 527,
+          "x": 13,
+          "y": 81,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "platform2",
+          "persistentUuid": "4f6114c7-328e-487b-8ad4-52673bb74fe6",
+          "width": 514,
+          "x": -8,
+          "y": 400,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -59282,7 +62367,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3175840813889574,
+        "zoomFactor": 0.19962545521159217,
         "windowMask": false
       }
     },
