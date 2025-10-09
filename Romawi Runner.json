@@ -3692,10 +3692,10 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 1500,
-              "maxSpeed": 250,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "maxSpeed": 250,
               "canGrabPlatforms": false,
               "canGoDownFromJumpthru": false,
               "deceleration": 0,
@@ -10065,10 +10065,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -11165,7 +11165,9 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "content": {}
+          "content": {
+            "IsChecked": true
+          }
         },
         {
           "assetStoreId": "",
@@ -18903,7 +18905,6 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19437,6 +19438,7 @@
           "colorG": 74,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20051,6 +20053,16 @@
                   "parameters": [
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "game.Sound.isMutedMusic",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -20074,6 +20086,13 @@
                     "",
                     ""
                   ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             },
@@ -20439,29 +20458,52 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVolumeSoundCanal"
+                    "value": "RePlayMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "1",
-                    "=",
-                    "100"
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "ModVolumeSoundCanal"
+                    "value": "RePlayMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "2",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "Switch_Music",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Music",
+                    "Animation",
                     "=",
-                    "100"
+                    "\"nyala\""
                   ]
                 }
               ]
@@ -20478,29 +20520,52 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVolumeSoundCanal"
+                    "value": "PauseMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "1",
-                    "=",
-                    "0"
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "ModVolumeSoundCanal"
+                    "value": "PauseMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "2",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "Switch_Music",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Music",
+                    "Animation",
                     "=",
-                    "0"
+                    "\"mati\""
                   ]
                 }
               ]
@@ -20541,6 +20606,38 @@
                     "=",
                     "100"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "Switch_Sound",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "sound",
+                    "Animation",
+                    "=",
+                    "\"nyala\""
+                  ]
                 }
               ]
             },
@@ -20552,7 +20649,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "game.Sound.isMutedMusic",
+                    "game.Sound.isMutedSound",
                     "=",
                     "1"
                   ]
@@ -20579,6 +20676,38 @@
                     "4",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::SetChecked"
+                  },
+                  "parameters": [
+                    "Switch_Sound",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "sound",
+                    "Animation",
+                    "=",
+                    "\"mati\""
                   ]
                 }
               ]
@@ -52390,7 +52519,7 @@
                       "name": "SwitchFSM",
                       "type": "SpriteToggleSwitch::SwitchFSM",
                       "ButtonFSM": "ButtonFSM",
-                      "IsChecked": false,
+                      "IsChecked": true,
                       "WasChecked": false
                     }
                   ],
