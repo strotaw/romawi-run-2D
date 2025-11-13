@@ -1,7 +1,7 @@
 {
   "firstLayout": "Game Scene",
   "gdVersion": {
-    "build": 244,
+    "build": 239,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1745,6 +1745,96 @@
         "name": "Group 66.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Berlari di Kayu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Berlari di Kayu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Berlari di tanah.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Berlari di tanah.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ledakan Asap.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Ledakan Asap.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Siang Cerah.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Siang Cerah.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sore.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sore.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Malam.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Malam.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Lumpur.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lumpur.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Rintangan Api.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Rintangan Api.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Kuda.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kuda.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1934,8 +2024,7 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4335774304702734,
-        "windowMask": false,
-        "selectedLayer": ""
+        "windowMask": false
       },
       "objectsGroups": [
         {
@@ -15043,7 +15132,7 @@
                       },
                       "parameters": [
                         "",
-                        "Berlari di tanah (1).wav",
+                        "Berlari di tanah.mp3",
                         "3",
                         "",
                         "",
@@ -15081,7 +15170,7 @@
                       },
                       "parameters": [
                         "",
-                        "Berlari di Kayu.wav",
+                        "Berlari di Kayu.mp3",
                         "3",
                         "",
                         "",
@@ -17771,7 +17860,7 @@
                   },
                   "parameters": [
                     "",
-                    "Kuda.wav",
+                    "Kuda.mp3",
                     "4",
                     "",
                     "",
@@ -18027,7 +18116,7 @@
                   },
                   "parameters": [
                     "",
-                    "Ledakan Asap (1).wav",
+                    "Ledakan Asap.wav",
                     "4",
                     "",
                     "",
@@ -18791,6 +18880,7 @@
           "colorG": 155,
           "colorR": 155,
           "creationTime": 0,
+          "folded": true,
           "name": "Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20542,7 +20632,7 @@
                   },
                   "parameters": [
                     "",
-                    "Rintangan Api.wav",
+                    "Rintangan Api.mp3",
                     "5",
                     "",
                     "",
@@ -20577,7 +20667,7 @@
                   },
                   "parameters": [
                     "",
-                    "Lumpur.wav",
+                    "Lumpur.mp3",
                     "5",
                     "",
                     "",
@@ -20612,7 +20702,7 @@
                   },
                   "parameters": [
                     "",
-                    "Siang Cerah.wav",
+                    "Siang Cerah.mp3",
                     "5",
                     "",
                     "",
@@ -20647,7 +20737,7 @@
                   },
                   "parameters": [
                     "",
-                    "Sore.wav",
+                    "Sore.mp3",
                     "5",
                     "",
                     "",
@@ -20682,7 +20772,7 @@
                   },
                   "parameters": [
                     "",
-                    "Malam.wav",
+                    "Malam.mp3",
                     "5",
                     "",
                     "",
@@ -27287,7 +27377,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "choices": [],
               "name": "PlatformerCharacter"
             },
             {
@@ -27297,7 +27386,6 @@
               "extraInformation": [
                 "SmoothCamera::SmoothCamera"
               ],
-              "choices": [],
               "name": "SmoothCamera"
             },
             {
@@ -29524,7 +29612,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "choices": [],
               "name": "DPlatformerCharacterBehavior"
             },
             {
@@ -29535,7 +29622,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "ETweenBehavior"
             },
             {
@@ -30929,7 +31015,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "choices": [],
               "name": "PlatformerBehavior"
             },
             {
@@ -30939,7 +31024,6 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "choices": [],
               "name": "Animation"
             },
             {
@@ -30949,7 +31033,6 @@
               "extraInformation": [
                 "FlippableCapability::FlippableBehavior"
               ],
-              "choices": [],
               "name": "Flippable"
             }
           ],
@@ -42541,7 +42624,6 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
-              "choices": [],
               "name": "Topdown"
             }
           ],
@@ -43213,7 +43295,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "choices": [],
               "name": "Platformer"
             }
           ],
@@ -44357,28 +44438,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Hovered",
-                  "value": "Hovered"
-                },
-                {
-                  "label": "PressedInside",
-                  "value": "PressedInside"
-                },
-                {
-                  "label": "PressedOutside",
-                  "value": "PressedOutside"
-                },
-                {
-                  "label": "Validated",
-                  "value": "Validated"
-                }
-              ],
               "hidden": true,
               "name": "State"
             },
@@ -44916,7 +44975,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -44926,7 +44984,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -45366,7 +45423,6 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "choices": [],
               "name": "Animation"
             },
             {
@@ -45376,7 +45432,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -46770,7 +46825,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -46780,7 +46834,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
@@ -46825,140 +46878,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -46966,140 +46885,6 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
@@ -47122,20 +46907,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             },
@@ -47164,20 +46935,6 @@
               "value": "NoTween",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "NoTween",
-                  "value": "NoTween"
-                },
-                {
-                  "label": "FadeIn",
-                  "value": "FadeIn"
-                },
-                {
-                  "label": "FadeOut",
-                  "value": "FadeOut"
-                }
-              ],
               "hidden": true,
               "name": "TweenState"
             },
@@ -48131,7 +47888,6 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
-              "choices": [],
               "name": "Scale"
             },
             {
@@ -48141,7 +47897,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -48151,7 +47906,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -48200,140 +47954,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -48341,160 +47961,12 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             }
@@ -49455,7 +48927,6 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -49465,7 +48936,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "Tween"
             },
             {
@@ -49511,140 +48981,6 @@
               "type": "Choice",
               "label": "Fade-in easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeInEasing"
             },
             {
@@ -49652,160 +48988,12 @@
               "type": "Choice",
               "label": "Fade-out easing",
               "group": "Speed",
-              "choices": [
-                {
-                  "label": "linear",
-                  "value": "linear"
-                },
-                {
-                  "label": "easeInQuad",
-                  "value": "easeInQuad"
-                },
-                {
-                  "label": "easeOutQuad",
-                  "value": "easeOutQuad"
-                },
-                {
-                  "label": "easeInOutQuad",
-                  "value": "easeInOutQuad"
-                },
-                {
-                  "label": "easeInCubic",
-                  "value": "easeInCubic"
-                },
-                {
-                  "label": "easeOutCubic",
-                  "value": "easeOutCubic"
-                },
-                {
-                  "label": "easeInOutCubic",
-                  "value": "easeInOutCubic"
-                },
-                {
-                  "label": "easeInQuart",
-                  "value": "easeInQuart"
-                },
-                {
-                  "label": "easeOutQuart",
-                  "value": "easeOutQuart"
-                },
-                {
-                  "label": "easeInOutQuart",
-                  "value": "easeInOutQuart"
-                },
-                {
-                  "label": "easeInQuint",
-                  "value": "easeInQuint"
-                },
-                {
-                  "label": "easeOutQuint",
-                  "value": "easeOutQuint"
-                },
-                {
-                  "label": "easeInOutQuint",
-                  "value": "easeInOutQuint"
-                },
-                {
-                  "label": "easeInOutSine",
-                  "value": "easeInOutSine"
-                },
-                {
-                  "label": "easeInExpo",
-                  "value": "easeInExpo"
-                },
-                {
-                  "label": "easeOutExpo",
-                  "value": "easeOutExpo"
-                },
-                {
-                  "label": "easeInOutExpo",
-                  "value": "easeInOutExpo"
-                },
-                {
-                  "label": "easeInCirc",
-                  "value": "easeInCirc"
-                },
-                {
-                  "label": "easeOutCirc",
-                  "value": "easeOutCirc"
-                },
-                {
-                  "label": "easeInOutCirc",
-                  "value": "easeInOutCirc"
-                },
-                {
-                  "label": "easeOutBounce",
-                  "value": "easeOutBounce"
-                },
-                {
-                  "label": "easeInBack",
-                  "value": "easeInBack"
-                },
-                {
-                  "label": "easeOutBack",
-                  "value": "easeOutBack"
-                },
-                {
-                  "label": "easeInOutBack",
-                  "value": "easeInOutBack"
-                },
-                {
-                  "label": "elastic",
-                  "value": "elastic"
-                },
-                {
-                  "label": "swingFromTo",
-                  "value": "swingFromTo"
-                },
-                {
-                  "label": "swingFrom",
-                  "value": "swingFrom"
-                },
-                {
-                  "label": "swingTo",
-                  "value": "swingTo"
-                },
-                {
-                  "label": "bounce",
-                  "value": "bounce"
-                },
-                {
-                  "label": "bouncePast",
-                  "value": "bouncePast"
-                },
-                {
-                  "label": "easeFromTo",
-                  "value": "easeFromTo"
-                },
-                {
-                  "label": "easeFrom",
-                  "value": "easeFrom"
-                },
-                {
-                  "label": "easeTo",
-                  "value": "easeTo"
-                }
-              ],
               "name": "FadeOutEasing"
             },
             {
               "value": "Idle",
               "type": "Choice",
               "label": "",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Focused",
-                  "value": "Focused"
-                },
-                {
-                  "label": "Pressed",
-                  "value": "Pressed"
-                }
-              ],
               "hidden": true,
               "name": "PreviousState"
             }
@@ -50527,7 +49715,6 @@
               "extraInformation": [
                 "SpriteToggleSwitch::ButtonFSM"
               ],
-              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -51664,28 +50851,6 @@
               "value": "Idle",
               "type": "Choice",
               "label": "State",
-              "choices": [
-                {
-                  "label": "Idle",
-                  "value": "Idle"
-                },
-                {
-                  "label": "Hovered",
-                  "value": "Hovered"
-                },
-                {
-                  "label": "PressedInside",
-                  "value": "PressedInside"
-                },
-                {
-                  "label": "PressedOutside",
-                  "value": "PressedOutside"
-                },
-                {
-                  "label": "Validated",
-                  "value": "Validated"
-                }
-              ],
               "hidden": true,
               "name": "State"
             },
@@ -51845,7 +51010,6 @@
               "initialVariables": []
             }
           ],
-          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -53081,8 +52245,7 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ],
-              "editionSettings": {}
+              ]
             }
           ]
         }
@@ -55179,7 +54342,6 @@
               "extraInformation": [
                 "OpacityCapability::OpacityBehavior"
               ],
-              "choices": [],
               "name": "Opacity"
             },
             {
@@ -55189,7 +54351,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "choices": [],
               "name": "TweenBehavior"
             },
             {
@@ -56048,7 +55209,6 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
-              "choices": [],
               "name": "Effect"
             },
             {
