@@ -17700,7 +17700,6 @@
           "colorG": 166,
           "colorR": 245,
           "creationTime": 0,
-          "folded": true,
           "name": "Horse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17830,7 +17829,7 @@
                   },
                   "parameters": [
                     "",
-                    "Ledakan Asap (1).wav",
+                    "Ledakan Asap.wav",
                     "4",
                     "",
                     "",
