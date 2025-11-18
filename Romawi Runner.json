@@ -1,13 +1,13 @@
 {
   "firstLayout": "Game Scene",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
@@ -1933,7 +1933,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702734,
+        "zoomFactor": 0.18923010380624453,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -14940,7 +14940,6 @@
           "colorG": 0,
           "colorR": 0,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18113,7 +18112,6 @@
           "colorG": 90,
           "colorR": 85,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19670,7 +19668,6 @@
           "colorG": 74,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20965,7 +20962,6 @@
           "colorG": 116,
           "colorR": 116,
           "creationTime": 0,
-          "folded": true,
           "name": "UI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21019,12 +21015,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "SystemInfo::HasTouchScreen"
                   },
                   "parameters": [
-                    "clicked",
-                    "=",
-                    "1"
+                    ""
                   ]
                 }
               ],
