@@ -1,7 +1,7 @@
 {
   "firstLayout": "Game Scene",
   "gdVersion": {
-    "build": 239,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1835,6 +1835,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Backsound 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Backsound 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Backsound 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Backsound 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2024,7 +2044,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4335774304702734,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [
         {
@@ -17700,6 +17721,7 @@
           "colorG": 166,
           "colorR": 245,
           "creationTime": 0,
+          "folded": true,
           "name": "Horse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18896,6 +18918,12 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -19150,6 +19178,12 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -19237,6 +19271,12 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -20359,7 +20399,6 @@
           "colorG": 155,
           "colorR": 132,
           "creationTime": 0,
-          "folded": true,
           "name": "BGM",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20389,19 +20428,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PlayMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "Backsound 2.wav",
+                    "Backsound 2.mp3",
                     "1",
                     "yes",
                     "",
@@ -20483,7 +20514,7 @@
                   },
                   "parameters": [
                     "",
-                    "Backsound 1.wav",
+                    "Backsound 1.mp3",
                     "2",
                     "yes",
                     "",
@@ -20803,20 +20834,24 @@
               "actions": [
                 {
                   "type": {
-                    "value": "RePlayMusicCanal"
+                    "value": "ModVolumeMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "1"
+                    "1",
+                    "=",
+                    "100"
                   ]
                 },
                 {
                   "type": {
-                    "value": "RePlayMusicCanal"
+                    "value": "ModVolumeMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "2"
+                    "2",
+                    "=",
+                    "100"
                   ]
                 },
                 {
@@ -20865,20 +20900,24 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PauseMusicCanal"
+                    "value": "ModVolumeMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "1"
+                    "1",
+                    "=",
+                    "0"
                   ]
                 },
                 {
                   "type": {
-                    "value": "PauseMusicCanal"
+                    "value": "ModVolumeMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "2"
+                    "2",
+                    "=",
+                    "0"
                   ]
                 },
                 {
@@ -21042,6 +21081,32 @@
                     "Animation",
                     "=",
                     "\"mati\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DebuggerTools::ConsoleLog"
+                  },
+                  "parameters": [
+                    "\"MENYALA\"",
+                    "\"info\"",
+                    ""
                   ]
                 }
               ]
@@ -27376,6 +27441,7 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
+              "choices": [],
               "name": "PlatformerCharacter"
             },
             {
@@ -27385,6 +27451,7 @@
               "extraInformation": [
                 "SmoothCamera::SmoothCamera"
               ],
+              "choices": [],
               "name": "SmoothCamera"
             },
             {
@@ -29611,6 +29678,7 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
+              "choices": [],
               "name": "DPlatformerCharacterBehavior"
             },
             {
@@ -29621,6 +29689,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "ETweenBehavior"
             },
             {
@@ -31014,6 +31083,7 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
+              "choices": [],
               "name": "PlatformerBehavior"
             },
             {
@@ -31023,6 +31093,7 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
+              "choices": [],
               "name": "Animation"
             },
             {
@@ -31032,6 +31103,7 @@
               "extraInformation": [
                 "FlippableCapability::FlippableBehavior"
               ],
+              "choices": [],
               "name": "Flippable"
             }
           ],
@@ -42623,6 +42695,7 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
+              "choices": [],
               "name": "Topdown"
             }
           ],
@@ -43294,6 +43367,7 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
+              "choices": [],
               "name": "Platformer"
             }
           ],
@@ -44974,6 +45048,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -44983,6 +45058,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -45422,6 +45498,7 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
+              "choices": [],
               "name": "Animation"
             },
             {
@@ -45431,6 +45508,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -46824,6 +46902,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -46833,6 +46912,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
@@ -47887,6 +47967,7 @@
               "extraInformation": [
                 "ScalableCapability::ScalableBehavior"
               ],
+              "choices": [],
               "name": "Scale"
             },
             {
@@ -47896,6 +47977,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -47905,6 +47987,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -48926,6 +49009,7 @@
               "extraInformation": [
                 "ButtonStates::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -48935,6 +49019,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "Tween"
             },
             {
@@ -49714,6 +49799,7 @@
               "extraInformation": [
                 "SpriteToggleSwitch::ButtonFSM"
               ],
+              "choices": [],
               "name": "ButtonFSM"
             },
             {
@@ -51009,6 +51095,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -52244,7 +52331,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
@@ -54341,6 +54429,7 @@
               "extraInformation": [
                 "OpacityCapability::OpacityBehavior"
               ],
+              "choices": [],
               "name": "Opacity"
             },
             {
@@ -54350,6 +54439,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "TweenBehavior"
             },
             {
@@ -55208,6 +55298,7 @@
               "extraInformation": [
                 "EffectCapability::EffectBehavior"
               ],
+              "choices": [],
               "name": "Effect"
             },
             {
