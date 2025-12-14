@@ -7,7 +7,7 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
@@ -15050,7 +15050,6 @@
           "colorG": 0,
           "colorR": 0,
           "creationTime": 0,
-          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18223,7 +18222,6 @@
           "colorG": 90,
           "colorR": 85,
           "creationTime": 0,
-          "folded": true,
           "name": "Beginning",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19799,7 +19797,6 @@
           "colorG": 74,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21119,7 +21116,6 @@
           "colorG": 116,
           "colorR": 116,
           "creationTime": 0,
-          "folded": true,
           "name": "UI",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21173,12 +21169,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "SystemInfo::HasTouchScreen"
                   },
                   "parameters": [
-                    "clicked",
-                    "=",
-                    "1"
+                    ""
                   ]
                 }
               ],
